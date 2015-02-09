@@ -1,0 +1,336 @@
+Reference : http://tortoisesvn.net/docs/nightly/TortoiseSVN_en/index.html
+
+Preface
+
+    What is TortoiseSVN?
+    TortoiseSVN's Features
+    License
+    Development
+
+        TortoiseSVN's History
+        Acknowledgments
+
+    Reading Guide
+    Terminology used in this document
+
+1. Getting Started
+
+    Installing TortoiseSVN
+
+        System requirements
+        Installation
+
+    Basic Concepts
+    Go for a Test Drive
+
+        Creating a Repository
+        Importing a Project
+        Checking out a Working Copy
+        Making Changes
+        Adding More Files
+        Viewing the Project History
+        Undoing Changes
+
+2. Basic Version-Control Concepts
+
+    The Repository
+    Versioning Models
+
+        The Problem of File-Sharing
+        The Lock-Modify-Unlock Solution
+        The Copy-Modify-Merge Solution
+        What does Subversion Do?
+
+    Subversion in Action
+
+        Working Copies
+        Repository URLs
+        Revisions
+        How Working Copies Track the Repository
+
+    Summary
+
+3. The Repository
+
+    Repository Creation
+
+        Creating a Repository with the Command Line Client
+        Creating The Repository With TortoiseSVN
+        Local Access to the Repository
+        Accessing a Repository on a Network Share
+        Repository Layout
+
+    Repository Backup
+    Server side hook scripts
+    Checkout Links
+    Accessing the Repository
+
+4. Daily Use Guide
+
+    General Features
+
+        Icon Overlays
+        Context Menus
+        Drag and Drop
+        Common Shortcuts
+        Authentication
+        Maximizing Windows
+
+    Importing Data Into A Repository
+
+        Import
+        Import in Place
+        Special Files
+
+    Checking Out A Working Copy
+
+        Checkout Depth
+
+    Committing Your Changes To The Repository
+
+        The Commit Dialog
+        Change Lists
+        Commit only parts of files
+        Excluding Items from the Commit List
+        Commit Log Messages
+        Commit Progress
+
+    Update Your Working Copy With Changes From Others
+    Resolving Conflicts
+
+        File Conflicts
+        Property Conflicts
+        Tree Conflicts
+
+    Getting Status Information
+
+        Icon Overlays
+        Detailed Status
+        TortoiseSVN Columns In Windows Explorer
+        Local and Remote Status
+        Viewing Diffs
+
+    Change Lists
+    Revision Log Dialog
+
+        Invoking the Revision Log Dialog
+        Revision Log Actions
+        Getting Additional Information
+        Getting more log messages
+        Current Working Copy Revision
+        Merge Tracking Features
+        Changing the Log Message and Author
+        Filtering Log Messages
+        Statistical Information
+        Offline Mode
+        Refreshing the View
+
+    Viewing Differences
+
+        File Differences
+        Line-end and Whitespace Options
+        Comparing Folders
+        Diffing Images Using TortoiseIDiff
+        Diffing Office Documents
+        External Diff/Merge Tools
+
+    Adding New Files And Directories
+    Copying/Moving/Renaming Files and Folders
+    Ignoring Files And Directories
+
+        Pattern Matching in Ignore Lists
+
+    Deleting, Moving and Renaming
+
+        Deleting files and folders
+        Moving files and folders
+        Dealing with filename case conflicts
+        Repairing File Renames
+        Deleting Unversioned Files
+
+    Undo Changes
+    Cleanup
+    Project Settings
+
+        Subversion Properties
+        TortoiseSVN Project Properties
+        Property Editors
+
+    External Items
+
+        External Folders
+        External Files
+        Creating externals via drag and drop
+
+    Branching / Tagging
+
+        Creating a Branch or Tag
+        Other ways to create a branch or tag
+        To Checkout or to Switch...
+
+    Merging
+
+        Merging a Range of Revisions
+        Merging Two Different Trees
+        Merge Options
+        Reviewing the Merge Results
+        Merge Tracking
+        Handling Conflicts during Merge
+        Feature Branch Maintenance
+
+    Locking
+
+        How Locking Works in Subversion
+        Getting a Lock
+        Releasing a Lock
+        Checking Lock Status
+        Making Non-locked Files Read-Only
+        The Locking Hook Scripts
+
+    Creating and Applying Patches
+
+        Creating a Patch File
+        Applying a Patch File
+
+    Who Changed Which Line?
+
+        Blame for Files
+        Blame Differences
+
+    The Repository Browser
+    Revision Graphs
+
+        Revision Graph Nodes
+        Changing the View
+        Using the Graph
+        Refreshing the View
+        Pruning Trees
+
+    Exporting a Subversion Working Copy
+
+        Removing a working copy from version control
+
+    Relocating a working copy
+    Integration with Bug Tracking Systems / Issue Trackers
+
+        Adding Issue Numbers to Log Messages
+        Getting Information from the Issue Tracker
+
+    Integration with Web-based Repository Viewers
+    TortoiseSVN's Settings
+
+        General Settings
+        Revision Graph Settings
+        Icon Overlay Settings
+        Network Settings
+        External Program Settings
+        Saved Data Settings
+        Log Caching
+        Client Side Hook Scripts
+        TortoiseBlame Settings
+        Advanced Settings
+        Exporting TSVN Settings
+
+    Final Step
+
+5. Commit Monitor
+
+    Adding projects to monitor
+    Monitor dialog
+
+6. The SubWCRev Program
+
+    The SubWCRev Command Line
+    Keyword Substitution
+    Keyword Example
+    COM interface
+
+7. IBugtraqProvider interface
+
+    Naming conventions
+    The IBugtraqProvider interface
+    The IBugtraqProvider2 interface
+
+A. Frequently Asked Questions (FAQ)
+B. How Do I...
+
+    Move/copy a lot of files at once
+    Force users to enter a log message
+
+        Hook-script on the server
+        Project properties
+
+    Update selected files from the repository
+    Roll back (Undo) revisions in the repository
+
+        Use the revision log dialog
+        Use the merge dialog
+        Use svndumpfilter 
+
+    Compare two revisions of a file or folder
+    Include a common sub-project
+
+        Use svn:externals
+        Use a nested working copy
+        Use a relative location
+        Add the project to the repository
+
+    Create a shortcut to a repository
+    Ignore files which are already versioned
+    Unversion a working copy
+    Remove a working copy
+
+C. Useful Tips For Administrators
+
+    Deploy TortoiseSVN via group policies
+    Redirect the upgrade check
+    Setting the SVN_ASP_DOT_NET_HACK environment variable
+    Disable context menu entries
+
+D. Automating TortoiseSVN
+
+    TortoiseSVN Commands
+    Tsvncmd URL handler
+    TortoiseIDiff Commands
+    TortoiseUDiff Commands
+
+E. Command Line Interface Cross Reference
+
+    Conventions and Basic Rules
+    TortoiseSVN Commands
+
+        Checkout
+        Update
+        Update to Revision
+        Commit
+        Diff
+        Show Log
+        Check for Modifications
+        Revision Graph
+        Repo Browser
+        Edit Conflicts
+        Resolved
+        Rename
+        Delete
+        Revert
+        Cleanup
+        Get Lock
+        Release Lock
+        Branch/Tag
+        Switch
+        Merge
+        Export
+        Relocate
+        Create Repository Here
+        Add
+        Import
+        Blame
+        Add to Ignore List
+        Create Patch
+        Apply Patch
+
+F. Implementation Details
+
+    Icon Overlays
+
+G. Language Packs and Spell Checkers
