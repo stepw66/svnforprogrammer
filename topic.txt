@@ -1,4 +1,6 @@
-Reference : http://tortoisesvn.net/docs/nightly/TortoiseSVN_en/index.html
+Reference : [http://tortoisesvn.net/docs/nightly/TortoiseSVN_en/index.html](http://tortoisesvn.net/docs/nightly/TortoiseSVN_en/index.html "Reference เอาหัวข้อมาจากที่นี่ ") 
+
+Free book : [http://svnbook.red-bean.com/en/1.6/svn.preface.audience.html](http://svnbook.red-bean.com/en/1.6/svn.preface.audience.html "Free SVN Book")
 
 Preface
 
