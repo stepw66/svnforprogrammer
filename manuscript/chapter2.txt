@@ -3,3 +3,43 @@
 
 
 ## การติดตั้ง ##
+
+1. เข้าไปยังเว็บไซต์ [https://www.visualsvn.com/](https://www.visualsvn.com/ "VisualSVN Server 3.2") 
+
+2. คลิกปุ่มดาวน์โหลดตรง VISUALSVNSERVER 
+    ![](images/chapter2/svnserver_install_01.png) 
+
+3. คลิกเลือกดาวน์โหลดโปรแกรมเวอร์ชั่น 32 bit/64 bit ตามวินโดวที่ติดตั้งไว้ในเครื่อง อย่างของผมผมเลือกดาวน์โหลด 64 bit เพราะวินโดวผมเป็น 64 bit
+    ![](images/chapter2/svnserver_install_02.png) 
+
+4. มีหน้าต่างขึ้นมาให้บันทึกไฟล์ที่ดาวน์โหลด กดปุ่ม Save File เลือกบันทึกไว้ที่สะดวกเรียกใช้งานสักที่ 
+    ![](images/chapter2/svnserver_install_03.png) 
+
+5. ดับเบิลคลิกไฟล์ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง หากมีหน้าต่าง Security Warning ขึ้นมาถามหาเรื่องความปลอดภัย ให้คลิกปุ่ม Run 
+    ![](images/chapter2/svnserver_install_04.png) 
+
+6. มาถึงตรงนี้เราก็เริ่มเข้าสู่กระบวนการการติดตั้งโปรแกรมอย่างแท้จริง ให้คลิกปุ่ม Next เดินหน้าต่อไป 
+    ![](images/chapter2/svnserver_install_05.png) 
+
+7. ติ๊กเลือก I accept the term in the License Agreement เพื่อยอมรับเงื่อนไขการใช้งานที่เขาแจ้งมา จากนั้นคลิกปุ่ม Next 
+    ![](images/chapter2/svnserver_install_06.png) 
+
+8. ใช้ตัวเลือก default ที่เขาเลือกมาให้แล้วโดยไม่ต้องเปลี่ยนแปลงอะไร จากนั้นคลิกปุ่ม Next ในหน้าจอนี้หากจะเปลี่ยนแปลงตัวเลือก ก็มีเพียงกรณีเดียวคือ ท่านติดตั้ง VisualSVN Server ไว้ที่เครื่องอื่นในเน็ตเวิร์คแล้ว และต้องการ remote เข้าใช้งานจากเครื่องของเราเอง
+    ![](images/chapter2/svnserver_install_07.png)
+
+9. คลิกปุ่ม Standard Edition   
+    ![](images/chapter2/svnserver_install_08.png)
+
+10. คลิกปุ่ม Next โดยไม่ต้องเปลี่ยนแปลงอะไร  
+    ![](images/chapter2/svnserver_install_09.png)
+
+11. คลิกปุ่ม Next 
+    ![](images/chapter2/svnserver_install_10.png)
+
+12. รอ
+    ![](images/chapter2/svnserver_install_11.png)
+
+13. คลิกปุ่ม Finish เสร็จสิ้นการติดตั้งโปรแกรม VisualSVN Server
+    ![](images/chapter2/svnserver_install_12.png)
+
+หลังจากนี้จะเข้าสู่กระบวนการตั้งค่า และใช้งานต่อไป
