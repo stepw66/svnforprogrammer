@@ -16,30 +16,39 @@
     ![](images/chapter2/svnserver_install_03.png) 
 
 5. ดับเบิลคลิกไฟล์ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง หากมีหน้าต่าง Security Warning ขึ้นมาถามหาเรื่องความปลอดภัย ให้คลิกปุ่ม Run 
+    
     ![](images/chapter2/svnserver_install_04.png) 
 
 6. มาถึงตรงนี้เราก็เริ่มเข้าสู่กระบวนการการติดตั้งโปรแกรมอย่างแท้จริง ให้คลิกปุ่ม Next เดินหน้าต่อไป 
+    
     ![](images/chapter2/svnserver_install_05.png) 
 
 7. ติ๊กเลือก I accept the term in the License Agreement เพื่อยอมรับเงื่อนไขการใช้งานที่เขาแจ้งมา จากนั้นคลิกปุ่ม Next 
+    
     ![](images/chapter2/svnserver_install_06.png) 
 
 8. ใช้ตัวเลือก default ที่เขาเลือกมาให้แล้วโดยไม่ต้องเปลี่ยนแปลงอะไร จากนั้นคลิกปุ่ม Next ในหน้าจอนี้หากจะเปลี่ยนแปลงตัวเลือก ก็มีเพียงกรณีเดียวคือ ท่านติดตั้ง VisualSVN Server ไว้ที่เครื่องอื่นในเน็ตเวิร์คแล้ว และต้องการ remote เข้าใช้งานจากเครื่องของเราเอง
+    
     ![](images/chapter2/svnserver_install_07.png)
 
 9. คลิกปุ่ม Standard Edition   
+    
     ![](images/chapter2/svnserver_install_08.png)
 
 10. คลิกปุ่ม Next โดยไม่ต้องเปลี่ยนแปลงอะไร  
+    
     ![](images/chapter2/svnserver_install_09.png)
 
 11. คลิกปุ่ม Next 
+    
     ![](images/chapter2/svnserver_install_10.png)
 
 12. รอ
+    
     ![](images/chapter2/svnserver_install_11.png)
 
 13. คลิกปุ่ม Finish เสร็จสิ้นการติดตั้งโปรแกรม VisualSVN Server
+    
     ![](images/chapter2/svnserver_install_12.png)
 
 หลังจากนี้จะเข้าสู่กระบวนการตั้งค่า และใช้งานต่อไป
@@ -53,6 +62,7 @@
 ![](images/chapter2/svnserver_manager_01.png)
 
 ลองคลิกที่เมนู File จะเห็นว่ามีเมนูย่อยแค่ 2 ตัว คือ Options.. กับ Exit  และถ้าหากคลิกที่เมนู Options นะ มันก็ไม่มีอะไรเลย แค่ให้เคลียร์ข้อมูลที่เป็นขยะ 
+
 ![](images/chapter2/svnserver_manager_02.png)
 
 เมนู Action นั้นมันจะเปลี่ยนแปลงไปตามหัวข้อที่เราเลือก อย่างถ้าหากเราเลือกโฟกัสอยู่ที่ VisualSVN Server(Local) จะแสดงแค่ Help
@@ -68,6 +78,7 @@
 ![](images/chapter2/svnserver_manager_05.png)
 
 ถ้าคลิกโฟกัสอยู่ที่ Group แล้วคลิกเมนู Action เมนูย่อยก็จะเป็นดังภาพ
+
 ![](images/chapter2/svnserver_manager_06.png)
 
 สำหรับการใช้งานแต่ละเมนู จะได้เรียนรู้ในหัวข้อต่อๆไป อย่างการเพิ่ม user, การสร้าง repository, การจัดกลุ่ม user เป็นต้น
@@ -75,4 +86,89 @@
 
 ## จัดการผู้ใช้งานระบบ ##
 
+สิ่งแรกเลยที่จะต้องทำหลังติดตั้ง VisualSVN Server เสร็จ คือ สร้าง User สำหรับใช้งาน SVN คนที่จะส่งโค้ดเข้ามาเก็บที่ VisualSVN Server ได้นั่นจะต้องมีชื่ออยู่ในระบบ ไม่ใช่ส่งโค้ดมาเก็บอย่างเดียว จะดู history จะอะไรก็แล้วแต่ ต้องมีชื่ออยู่ในระบบเสียก่อนเสมอ 
 
+
+## การสร้างยูสเซอร์ใหม่  ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาที่ User จากนั้นเลือก Create User... หรือจะเลือกไปที่ New \> User ก็ได้ ให้ผลลัพธ์เหมือนกัน 
+    ![](images/chapter2/user_create_01.png) 
+
+3. หน้าต่าง Create New User จะเปิดขึ้นมา ให้ป้อนรายละเอียดของ User ใหม่เข้าไป เสร็จแล้วคลิกปุ่ม OK 
+
+    Username : ชื่อล้อกอิน 
+    
+    Password : รหัสผ่าน 
+    
+    Confirm Password : ยืนยันรหัสผ่าน
+    
+    มีคำเตือนอยู่ด้านล่างนิดนึงบอกว่า ชื่อล้อกอินและรหัสผ่าน ตัวอักษรตัวเล็กและตัวใหญ่จะถูกมองว่าเป็นคนละตัวกัน
+    
+    ![](images/chapter2/user_create_02.png)
+
+4. หลังคลิกปุ่ม OK แล้วจะเห็นว่า User ใหม่ที่เราป้อนรายละเอียดไปเมื่อตะกี้ ได้ถูกสร้างขึ้นมาแล้ว  
+
+    ![](images/chapter2/user_create_03.png)
+
+
+## การลบยูสเซอร์ ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาที่ User ที่ต้องการลบทิ้ง เลือก Delete
+
+    ![](images/chapter2/user_delete_01.png)
+
+
+## การเปลี่ยนรหัสผ่านใหม่ให้ยูสเซอรื ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาที่ User ที่ต้องการกำหนดรหัสผ่านใหม่ เลือก Set Password...
+
+    ![](images/chapter2/user_set_new_password_01.png)
+
+3. หน้าต่างกำหนดรหัสผ่านจะแสดงขึ้นมา ป้อนรหัสผ่านในช่อง New password และยืนยันรหัสผ่านในช่อง Confirm password จากนั้นคลิกปุ่ม OK ก็เป็นอันเรียบร้อย
+
+    ![](images/chapter2/user_set_new_password_02.png)
+
+
+## การจัดกลุ่ม User ##
+
+การจัดกลุ่ม User นั้นมีประโยชน์อยู่ 2 อย่าง
+
+1. เพื่อความเป็นระเบียบในเชิงบริหาร จะได้รู้ว่าใครอยู่กลุ่มไหน
+
+2. เพื่อความง่ายและสะดวกในการกำหนดสิทธิ์เข้าใช้งาน repository (บทต่อๆไปจะได้เรียนรู้เรื่อง repository) แทนที่จะกำหนดเป็นคนๆ กำหนดเป็นกลุ่มเลยทีเดียวก็สะดวกกว่า
+
+
+## สร้างกลุ่ม User ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาที่ Group เลือก Create group... หรือจะเลือก New \> Group ก็ได้
+
+    ![](images/chapter2/group_create_01.png) 
+
+3. หน้าต่าง Create New Group ถูกแสดงขึ้นมา ป้อนชื่อกลุ่มที่ต้องการเข้าไปในช่อง Group name: จากนั้นคลิกปุ่ม Add... เพื่อเพิ่ม User เข้ามาเป็นสมาชิกของกลุ่มนี้
+
+    ![](images/chapter2/group_create_02.png) 
+
+4.  หน้าต่าง Choose user or group จะแสดงขึ้นมา คลิกเลือก User ที่ต้องการจากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter2/group_create_03.png) 
+
+5. คลิกปุ่ม OK อีกครั้ง
+
+    ![](images/chapter2/group_create_04.png) 
+
+
+## ลบกลุ่ม ##
+
+## ลบสมาชิกออกจากกลุ่ม ##
+
+
+
+## ลบกลุ่ม User ##
