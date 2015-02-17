@@ -3,7 +3,62 @@
 
 ## Repository คืออะไร ##
 
+ถ้าจะว่าไปแล้ว Repository ก็คือโปรเจ็กนั่นแหละ แต่ทำไมฝรั่งจึงเรียกว่า Repository แทนที่จะเรียกว่าโปรเจ็ก อันนี้ไม่แน่ใจเหมือนกัน แต่เขาคงมีเหตุผลของเขา เอาเป็นว่าสรุปง่ายๆละกันว่า Repository ก็คือโปรเจ็ก ที่ไว้สำหรับเก็บโค้ดหรือ Resource ที่ส่งมาจาก Client ให้หลับตาแล้วนึกภาพง่ายๆว่า ที่ VisualSVN Server นี้เก็บ Repository ไว้เพียบ จากนั้นโปรแกรมเมอร์ท่านไหน ต้องการพัฒนาโปรแกรมอะไร ก็เชื่อมต่อเข้ามาก้อปปี้โค้ดจาก Repository ลงไปยังเครื่องของตัวเอง (จะมีโปรแกรมชื่อ TortoiseSVN เป็นตัวช่วย) จากนั้นก็เขียนโค้ดๆๆๆๆ ทดสอบๆๆๆๆ จนเห็นว่ามันสำเร็จระดับหนึ่งแล้ว ก็ส่งโค้ดเข้ามาเก็บไว้ที่ Repository ถ้าหาก Repository นั้นๆเชื่อมต่อร่วมกันหลายคน มันก็กลายเป็นการพัฒนาโปรแกรมร่วมกัน แชร์โค้ดกัน นี่แหละประโยชน์ของ SVN 
+
+
 ## สร้าง Repository ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาบน Repositories เลือก Create New Repository...
+
+    ![](images/chapter3/repository_create_01.png) 
+
+3. เลือกประเภทการจัดเก็บ Repository ซึ่งมีอยู่ 2 แบบ 
+	- คือ regular FSFS อันนี้มันจะสร้าง Repository เดี่ยวๆโดยรูปแบบไฟล์ที่จัดเก็บนั้นเป็นแบบ FSFS (ไม่รู้ว่าเราจะรู้ลึกๆไปทำไม เหมือนกัน) หากเราใช้ VisualSVN Server เวอร์ชั่นฟรี เราจะเลือกได้เฉพาะตัวเลือกนี้ 
+	- คือ Distributed VDFS อันนี้มันจะยอมให้เราทำ Replicate repository ได้ ตัวเลือกนี้จะเลือกได้ก็ต่อเมื่อใช้ VisualSVN Server เวอร์ชั่นเสียตังส์
+
+    ![](images/chapter3/repository_create_02.png) 
+	 
+	ติ๊กเลือก regular FSFS จากนั้นคลิก Next
+
+4. ตั้งชื่อ Repository ซึ่งควรตั้งเป็นชื่อเดียวกับโปรแกรมที่เรากำลังจะพัฒนาและส่งโค้ดมาเก็บที่ Repository นี้ จากนั้นคลิก Next
+
+    ![](images/chapter3/repository_create_03.png) 
+
+5. เลือกโครงสร้าง Repository ซึ่งตอนนี้แนะนำให้เลือก Empty repository ไปก่อน เพราะอีกตัวเลือกหนึ่งนั้นจำเป็นจะต้องไปเข้าใจหลักการการแตก branch การบริหารโปรเจ็กด้วย branch เสียก่อน ซึ่งจะได้เรียนรู้ในบทต่อๆไป จากนั้นคลิก Next
+
+    ![](images/chapter3/repository_create_04.png) 
+
+6. Repository Access Permissions กำหนดสิทธิ์การเข้าใช้งาน Repository นี้ โดยมีอยู่ 3 ตัวเลือก
+    - Nobody has access  ไม่อนุญาติให้ใครเข้าใช้งาน (อาจไว้สำหรับทำแบ้กอัพ)
+    - All subversion users have Read/Write access อนุญาติให้ทุกคนที่มีชื่อในระบบสามารถอ่านและเขียนไฟล์ใน Repository นี้ได้ สามารถที่จะ Clone และ Commit โค้ดเข้ามายัง Repository นี้ได้ (จะได้เรียนรู้วิธีในบทต่อๆไป)
+    - Customize Permissions ให้เรากำหนดเอาเองว่าใคร หรือกลุ่มไหน สามารถเข้าถึงและแก้ไขไฟล์ใน Repository นี้ได้ 
+
+    ลองคลิกปุ่ม Custom... 
+
+    ![](images/chapter3/repository_create_05.png) 
+
+    หน้าต่าง Customize Permissions สำหรับกำหนดสิทธิ์จะถูกเปิดขึ้นมา จากนั้นลองคลิกปุ่ม Add... ดู
+
+    ![](images/chapter3/repository_create_06.png) 
+
+    หน้าต่าง Choose User or Group แสดงขึ้นมา เราสามารถเลือกให้สิทธิ์เป็นรายบุคคลหรือเป็นกลุ่มก็ได้ จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter3/repository_create_07.png) 
+
+    คลิกปุ่ม OK อีกครั้ง
+
+    ![](images/chapter3/repository_create_08.png) 
+
+7. คลิกปุ่ม Create
+
+    ![](images/chapter3/repository_create_09.png) 
+
+8. เมื่อมาถึงหน้านี้ จะแสดงข้อมูลสรุปว่า จัดเก็บข้อมูลประเภทไหน ชื่อ Repository อะไร ลิ้งก์สำหรับเปิดดูไฟล์ใน Repository ด้วยเบราเซอร์ และใครมีสิทธิ์เข้าใช้งาน Repository นี้  คลิกปุ่ม Finish เสร็จสิ้นการสร้าง Repository
+
+    ![](images/chapter3/repository_create_09.png) 
+
 
 ## กำหนด User เข้าใช้งาน Repository ##
 
