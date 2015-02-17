@@ -57,11 +57,65 @@
 
 8. เมื่อมาถึงหน้านี้ จะแสดงข้อมูลสรุปว่า จัดเก็บข้อมูลประเภทไหน ชื่อ Repository อะไร ลิ้งก์สำหรับเปิดดูไฟล์ใน Repository ด้วยเบราเซอร์ และใครมีสิทธิ์เข้าใช้งาน Repository นี้  คลิกปุ่ม Finish เสร็จสิ้นการสร้าง Repository
 
-    ![](images/chapter3/repository_create_09.png) 
+    ![](images/chapter3/repository_create_10.png) 
 
 
-## กำหนด User เข้าใช้งาน Repository ##
+## เพิ่ม User เข้าใช้งาน Repository ##
+
+อันที่จริงตอนเราสร้าง Repository มันมีขั้นตอนให้กำหนดอยู่แล้วว่าจะให้ใครเข้าใช้ Repository นั้นๆได้บ้าง แต่อย่างว่าทุกอย่างมันมีการเปลี่ยนแปลงได้เสมอ การเพิ่ม User/Group เข้าใช้งาน Repository ก็เช่นกัน ทำได้ดังนี้
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
+
+    ![](images/chapter3/repository_add_user_01.png) 
+
+3. หน้าต่าง Properties for ถูกเปิดขึ้นมา คลิกปุ่ม Add
+
+    ![](images/chapter3/repository_add_user_02.png) 
+
+4. คลิกเลือก User หรือ Group ที่ต้องการ เสร็จแล้วคลิกปุ่ม OK
+
+    ![](images/chapter3/repository_add_user_03.png) 
+
+5. จะเห็นว่ามี User หรือ Group ที่เราเพิ่มเข้ามาแล้ว คลิกปุ่ม OK อีกครั้งปิดหน้าต่างออกไป
+
+    ![](images/chapter3/repository_add_user_04.png) 
+
 
 ## ลบ User ออกจาก Repository ##
+
+พึงจำไว้ว่าการลบแบบนี้เป็นเพียงแค่ลบสิทธิ์เท่านั้น ไม่ได้ลบตัว User เองหรือลบ Group แต่อย่างใด
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
+
+    ![](images/chapter3/repository_remove_user_01.png) 
+
+3. คลิกเลือก User หรือ Group ที่ต้องการลบออกจาก Repository เสร็จแล้วคลิกปุ่ม OK User หรือ Group นั้นๆ จะไม่สามารถเข้าใช้งาน Repository นี้ได้อีก
+
+    ![](images/chapter3/repository_remove_user_02.png) 
+
+4. คลิกปุ่ม OK เพื่อปิดหน้าต่าง เสร็จสิ้นการแก้ไข
+
+## เปลี่ยนแปลงสิทธิ์ในการเข้าใช้งาน Repository ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
+
+    ![](images/chapter3/repository_change_permission_01.png) 
+
+3. คลิกเลือก User หรือ Group ที่ต้องการเปลี่ยนแปลงสิทธิ์ จากนั้นคลิกเลือกสิทธิ์ที่ด้านล่าง ซึ่งมีตัวเลือกที่สามารถเลือกได้อยู่ 3 ตัวเลือก
+
+    - No access ห้ามเข้าใช้งาน (ไม่รู้เหมือนกันว่าทำไมไม่ลบออกไปซะให้สิ้นเรื่องสิ้นราว)
+    - Read Only อ่านได้อย่างเดียว
+    - Read / Write ได้ทั้งอ่านทั้งเขียน  จะแก้ไขเปลี่ยนแปลงไฟล์ทำได้หมด
+
+    ![](images/chapter3/repository_change_permission_02.png) 
+
+4. คลิกปุ่ม OK เพื่อปิดหน้าต่าง เสร็จสิ้นการแก้ไข
+
 
 ## ลบ Repository ##
