@@ -119,3 +119,43 @@
 
 
 ## ลบ Repository ##
+
+การลบ Repository จะต้องกระทำด้วยความระมัดระวังเสมอ เพราะ Repository ที่ลบไปแล้วนั้นจะไม่สามารถกู้คืนกลับมาได้ ต่อให้มีโค้ดที่เป็น working copy ก็จริง แต่ history ที่เคยบันทึกไว้จะหายไปอย่างถาวร
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Delete
+
+    ![](images/chapter3/repository_delete_01.png) 
+
+3. จะมีหน้าต่างขึ้นมาถามว่า แน่ใจแล้วหรือที่จะลบ Repository นี้ หากยังยืนยันคำเดิมว่าจะลบทิ้ง คลิกปุ่ม Yes
+
+    ![](images/chapter3/repository_delete_02.png) 
+
+4. Repository จะถูกลบทิ้งอย่างถาวร
+
+    ![](images/chapter3/repository_delete_03.png) 
+
+
+## เปลี่ยนชื่อ Repository##
+
+การเปลี่ยนชื่อ Repository นั้นจะต้องทำด้วยความระมัดระวัง เพราะว่าเมื่อเปลี่ยนชื่อแล้ว คนที่ใช้งาน Repository ด้วยชื่อเดิมจะไม่สามารถเข้าใช้งานได้ ท่านจะเห็นเหตุผลข้อนี้ได้ชัดเจนขึ้น เมื่อท่านเข้าสู่บทที่ว่าด้วยเรื่องการ Clonning Code
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกตรง Repositories จากนั้นให้คลิกขวาบนชื่อ Repository ที่เราต้องการเปลี่ยนชื่อ แล้วเลือก Rename
+
+    ![](images/chapter3/repository_rename_01.png) 
+
+3. พิมพ์ชื่อ Repository ใหม่ตามที่ต้องการ เสร็จแล้วกดปุ่มคีย์บอร์ด Enter
+
+    ![](images/chapter3/repository_rename_02.png) 
+
+4. จะมีหน้าต่างขึ้นมาเตือนว่า "หากคุณเปลี่ยนชื่อ คนที่เคยเข้าใช้งาน Repository นี้ได้ จะเข้าไม่ได้นะ ต้องการทำต่อไปใช่มั้ย" คลิกปุ่ม Yes
+
+    ![](images/chapter3/repository_rename_03.png) 
+
+5. Repository ถูกเปลี่ยนเป็นชื่อใหม่เรียบร้อย
+
+    ![](images/chapter3/repository_rename_04.png) 
+
