@@ -1,0 +1,59 @@
+# Tortoise SVN #
+
+การใช้งาน SVN นั้นส่วนที่เราเข้าไปข้องเกี่ยวมากที่สุดคือส่วน SVN Client ซึ่งเราจะใช้โปรแกรม Tortoise SVN  Tortoise SVN จะทำงานประสานกับ VisualSVN Server โดย Tortoise SVN ส่งโค้ดพร้อมคำอธิบายโค้ดไปให้ VisualSVN Server, VisualSVN Server จะเก็บโค้ดนั้นๆไว้ให้ เมื่อ User ต้องการทราบว่าใครเป็นคนแก้โค้ดบรรทัดนั้นๆไป ก็สั่งให้ Tortoise SVN ไปขอข้อมูลมาจาก VisualSVN Server มาดู
+
+จะให้พูดสรุปง่ายๆก็ได้ว่า VisualSVN Server เป็นตัวเก็บข้อมูล ส่วน Tortoise SVN นั้นเป็นตัวรวบรวมข้อมูลแล้วส่งไปให้ VisualSVN หรือในบางครั้งที่ User ต้องการทราบข้อมูลบางอย่าง ก็สั่งผ่าน Totoise SVN, Tortoise SVN ก็จะไปขอข้อมูลที่เก็บไว้มาจาก VisualSVN
+
+Client Server Model สมบูรณ์แบบ
+
+หลังจากที่เราติดตั้ง VisualSVN Server ไปแล้ว เราจะมาติดตั้ง Tortoise SVN ต่อแล้วเริ่มเข้าสู่กระบวนการใช้งาน กัน
+
+
+## ติดตั้ง Tortoise SVN ##
+
+1. เปิดเบราเซอร์ขึ้นมาแล้วไปที่ http://tortoisesvn.net/downloads.html 
+
+2. คลิกเลือกว่าจะดาวน์โหลดเวอร์ชั่นไหนไปใช้ ขึ้นอยู่กับระบบปฎิบัติการของคุณว่าเป็นกี่บิต
+
+    ![](images/chapter5/tortoisesvn_install_01.png)
+
+3. ตัว TortoiseSVN นั้นถูกเก็บไว้ที่ Sourceforge รอสักครู่จะมีหน้าต่างดาวน์โหลดขึ้นมา
+
+    ![](images/chapter5/tortoisesvn_install_02.png)
+
+4. บันทึกไฟล์เก็บไว้ที่ไหนสักแห่ง ที่จะเรียกใช้งานได้ง่ายๆ 
+
+    ![](images/chapter5/tortoisesvn_install_03.png)
+
+5. ดับเบิลคลิกไฟล์ TortoiseSVN ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง
+
+    ![](images/chapter5/tortoisesvn_install_04.png)
+
+6. เข้าสู่กระบวนการติดตั้ง คลิก Next 
+
+    ![](images/chapter5/tortoisesvn_install_05.png)
+
+7. คลิกเลือก I accept the term in the License Agreement ยอมรับเงื่อนไขการใช้งาน จากนั้นคลิกปุ่ม Next
+
+    ![](images/chapter5/tortoisesvn_install_06.png)
+
+8. ไม่ต้องเปลี่ยนแปลงค่าอะไร ปล่อยไปตาม Default คลิกปุ่ม Next 
+
+    ![](images/chapter5/tortoisesvn_install_07.png)
+
+9. คลิก Next 
+
+    ![](images/chapter5/tortoisesvn_install_08.png)
+
+10. โปรแกรม TortoiseSVN กำลังติดตั้ง ช่วงนี้ทำได้แค่รอ
+
+    ![](images/chapter5/tortoisesvn_install_09.png)
+
+11. หลังจากรอได้สักครู่ โปรแกรมก็ทำการติดตั้งเสร็จเรียบร้อย ให้คลิกปุ่ม Finish เสร็จสิ้นการติดตั้ง
+
+    ![](images/chapter5/tortoisesvn_install_10.png)
+
+12. ลองเปิด Explorer ขึ้นมาไปยังโฟลเดอร์ไหนก็ได้ คลิกขวาดู จะเห็นว่ามีเมนูในกลุ่ม SVN เพิ่มขึ้นมา  เอาละครับมาถึงจุดนี้เป็นจุดที่ท่านต้องทราบว่า โปรแกรม TortoiseSVN นั้นไม่เหมือนกับโปรแกรมที่เราลงใช้งานทั่วๆไป ตัวมันเองจะไปฝังเข้ากับ Context Menu เวลาจะใช้งานก็เรียกผ่านทางคลิกขวา ในบทต่อๆไปท่านจะได้เรียนรู้วิธีการใช้งาน และจะรู้สึกคุ้นเคยกับมันมากขึ้น 
+
+    ![](images/chapter5/tortoisesvn_install_11.png)
+
