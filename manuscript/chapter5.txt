@@ -57,9 +57,9 @@ Client Server Model สมบูรณ์แบบ
 
     ![](images/chapter5/tortoisesvn_install_11.png)
 
-## โคลนนิ่งโปรเจ็ก ##
+## Checkout Code ##
 
-จริงๆแล้วศัพท์ที่ทาง SVN เขาใช้กันเขาใช้คำว่า **เช็กเอ้าท์** โค้ด คือกระบวนการที่เราไปดึงเอาโค้ดที่เก็บไว้ที่ VisualSVN Server ลงมาที่เครื่องของเราเพื่อทำการแก้ไข
+**เช็กเอ้าท์** โค้ด คือกระบวนการที่เราไปดึงเอาโค้ดที่เก็บไว้ที่ VisualSVN Server ลงมาที่เครื่องของเราเพื่อทำการแก้ไข และเป็นการสร้างความสัมพันธ์ระหว่าง SVN Server กับ SVN Client เข้าด้วยกัน
 
 1. ให้เปิด VisualSVN Server Manager ขึ้นมาแล้วสร้างโปรเจ็กชื่อ schoolmanagement ขึ้นมา (ผมสมมติเอาว่าท่านกำลังสร้างโปรเจ็กนี้อยู่) วิธีการสร้างอ่านได้จาก  บทที่ 3 จากนั้นคลิกขวาที่โปรเจ็ก schoolmanagement เลือก Copy URL to Clipboard
 
@@ -77,18 +77,35 @@ Client Server Model สมบูรณ์แบบ
 
     ![](images/chapter5/tortoisesvn_checking_out_04.png)
 
+5. ทีนี้ลองเปิด Explorer ไปที่ C:\xampp\htdocs ดูจะเห็นว่าโฟลเดอร์ schoolmanagement จะมีเครื่องหมายถูกสีเขียวแปะอยู่บนไอคอนโฟลเดอร์ เป็นความหมายว่า โฟลเดอร์นี้โค้ดข้างในใหม่สด  มันจะมีไอคอนอีกหลายแบบ จะเอามาแสดงให้ดูและอธิบายในบทต่อไป
+
+    ![](images/chapter5/tortoisesvn_checking_out_05.png)
+
+6. ลองดับเบิลคลิกเข้าไปยังโฟลเดอร์ schoolmanagement จะเห็นว่าเป็นเพียงโฟลเดอร์เปล่าๆ นั่นเป็นเพราะว่า repository ที่เก็บอยู่บน VisualSVN Server ที่เราเช็กเอ้าท์ลงมา มันยังไม่มีอะไรเก็บไว้ 
+
+    ![](images/chapter5/tortoisesvn_checking_out_06.png)
+
+7. แต่ถ้าหากลองสั่งให้วินโดวมันแสดงทุกอย่างในโฟลเดอร์ schoolmanagement ออกมา
+
+    ![](images/chapter5/tortoisesvn_checking_out_07.png)
+
+8. จะเห็นว่ามีโฟลเดอร์ .svn อยู่ข้างใน โฟลเดอร์นี้เป็นโฟลเดอร์สำคัญ ห้ามลบ เป็นโฟลเดอร์เก็บรายละเอียดต่างๆของ SVN
+
+    ![](images/chapter5/tortoisesvn_checking_out_08.png)
+
+
+## Making Changes ##
 
 
 
-- Checking out a Working Copy
-- Making Changes
+
+
+
+
+- 
 - Adding More Files
 - Viewing the Project History
 - Undoing Changes
 
 
 nooae_four@hotmail.com
-
-
-
-
