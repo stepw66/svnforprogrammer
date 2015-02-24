@@ -57,3 +57,38 @@ Client Server Model สมบูรณ์แบบ
 
     ![](images/chapter5/tortoisesvn_install_11.png)
 
+## โคลนนิ่งโปรเจ็ก ##
+
+จริงๆแล้วศัพท์ที่ทาง SVN เขาใช้กันเขาใช้คำว่า **เช็กเอ้าท์** โค้ด คือกระบวนการที่เราไปดึงเอาโค้ดที่เก็บไว้ที่ VisualSVN Server ลงมาที่เครื่องของเราเพื่อทำการแก้ไข
+
+1. ให้เปิด VisualSVN Server Manager ขึ้นมาแล้วสร้างโปรเจ็กชื่อ schoolmanagement ขึ้นมา (ผมสมมติเอาว่าท่านกำลังสร้างโปรเจ็กนี้อยู่) วิธีการสร้างอ่านได้จาก  บทที่ 3 จากนั้นคลิกขวาที่โปรเจ็ก schoolmanagement เลือก Copy URL to Clipboard
+
+    ![](images/chapter5/tortoisesvn_checking_out_01.png)
+
+2. เปิด Explorer ขึ้นมา เข้าไปยัง C:\xampp\htdocs\schoolmanagement (หากโฟลเดอร์ schoolmanagement ไม่มีก็สร้างขึ้นมานะครับ ) สำหรับคนที่ไม่ได้ใช้ xampp เป็นตัวพัฒนา PHP ก็ลองเทียบเคียงเอาดูนะครับ  เมื่อเข้าไปในโฟลเดอร์แล้ว ให้คลิกขวา เลือก SVN Checkout...
+
+    ![](images/chapter5/tortoisesvn_checking_out_02.png)
+
+3. ในช่อง URL of repository วาง URL ที่เราก้อปปี้มาจาก VisualSVN Server ในช่อง checkout directory เป็นพาธโฟลเดอร์สำหรับเก็บภาพ แต่ปกติแล้วช่องทั้งสองนี้จะถูกป้อนค่าอัตโนมัติอยู่แล้ว  ส่วนตัวเลือกอื่นๆไม่ต้องเปลี่ยนแปลงอะไร คลิกปุ่ม OK
+
+    ![](images/chapter5/tortoisesvn_checking_out_03.png)
+
+4. รอสักครู่กระบวนการ checking out จะเสร็จเรียบร้อย ให้คลิกปุ่ม OK
+
+    ![](images/chapter5/tortoisesvn_checking_out_04.png)
+
+
+
+
+- Checking out a Working Copy
+- Making Changes
+- Adding More Files
+- Viewing the Project History
+- Undoing Changes
+
+
+nooae_four@hotmail.com
+
+
+
+
