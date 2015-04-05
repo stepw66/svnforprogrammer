@@ -51,6 +51,31 @@
     ![](images/chapter6/tortoisesvn_export_04.png)
 
 
+## export เฉพาะไฟล์ที่แก้ไข ##
+
+ในบางครั้งเราไม่ได้ต้องการ export ไฟล์ทั้งหมดออกจาก repository เราต้องการเพียงแค่เฉพาะไฟล์ที่ถูกแก้ไขหรือเพิ่มเข้าไปจากช่วง revision นี้ถึง revision นี้ 
+
+1. เข้าไปยัง Working Copy คลิกขวาที่ว่างๆ เลือก TortoiseSVN \> Show log
+
+    ![](images/chapter6/tortoisesvn_export_revision_01.png)
+
+2. หน้าต่าง Log Messages เปิดขึ้นมา ให้คลิกเลือก revision ตั้งต้น และ revision สิ้นสุดที่ต้องการ export ไฟล์ (กดปุ่ม ctrl ไว้นะ) จากนั้นคลิกขวาบนหมายเลข revision ที่เลือกไว้ เลือก Compare revisions 
+
+    ![](images/chapter6/tortoisesvn_export_revision_02.png)
+
+3. หน้าต่าง Changed files แสดงขึ้นมา ให้เลือกรายชื่อไฟล์ทั้งหมดที่ปรากฎ (ctrl+A ไปเลยไม่ต้องสนใจ) จากนั้นคลิกขวา เลือก Export selection to...
+
+    ![](images/chapter6/tortoisesvn_export_revision_03.png)
+
+4. เลือกโฟลเดอร์สำหรับเก็บไฟล์ที่ export 
+
+    ![](images/chapter6/tortoisesvn_export_revision_04.png)
+
+5. หลังจากกระบวนการ export เสร็จเรียบร้อย ลองเปิดเข้าไปดูในโฟลเดอร์ที่เก็บไฟล์ จะเห็นว่าไฟล์
+
+    ![](images/chapter6/tortoisesvn_export_revision_05.png)
+
+
 ## สั่งข้ามไฟล์บางไฟล์หรือบางโฟลเดอร์ ##
 
 ต้องเข้าใจอย่างหนึ่งว่า ไฟล์อะไรก็ตามที่เราทำการ commit เข้า Repository คนอื่นก็จะได้รับการอัปเดตไฟล์นั้นๆไปด้วย ซึ่งในบางครั้งไฟล์ที่เรา commit ไป มันไปตีกับของเดิมของเขา หรือไม่งั้นไฟล์นั้นๆก็ไม่ได้จำเป็นที่จะต้องมีใน Repository อย่างเช่น ไฟล์คอนฟิกของอิดีเตอร์ที่ใช้ ถ้าใครเคยใช้ phpstorm จะเห็นชัดเจนว่า phpstorm จะสร้างไฟล์ชื่อ .idea ขึ้นมาในโฟลเดอร์ที่มันทำงาน ไฟล์แบบนี้คนอื่นไม่จำเป็นจะต้องรับทราบว่ามีตัวตน หรือบางทีไฟล์คอนฟิกของโปรแกรมที่เรากำลังเขียนอยู่นี่แหละ เราต้องการป้องกันไม่ให้ใครไปแก้มัน แล้ว commit เข้า Repository 
@@ -66,26 +91,39 @@
     ![](images/chapter6/tortoisesvn_ignorefile_02.png)
 
 
-## Resolve Conflict ##
+## ยกเลิก Ignore file ##
 
+หลังจากที่เราสั่ง Ignore ไฟล์ใดไฟล์หนึ่งหรือโฟลเดอร์ใดๆไปแล้ว เราสามารถยกเลิกได้ โดย
 
+1. คลิกขวาบนไฟล์ที่ถูก Ignore ไว้ เลือก TortoiseSVN \> Remove from ignore list
 
+    ![](images/chapter6/tortoisesvn_unignore_01.png)
 
+2. สังเกตดูจากไอคอนเล็กๆที่ติดอยู่ที่ไอคอนไฟล์ จากเมื่อก่อนมันเป็นเครื่องหมายลบสีเทาๆ กลับกลายมาเป็นเครื่องหมาย คำถามสีน้ำเงิน นั่นเป็นเครื่องหมายว่าไฟล์นี้พร้อมถูก Commit เพื่อแชร์ความเปลี่ยนแปลงของตัวเองไปให้โปรแกรมเมอร์คนอื่นได้ทราบ คลิกปุ่ม OK
 
-
-
-
-
-
-
-
-
+    ![](images/chapter6/tortoisesvn_unignore_02.png)
 
 
 ## Compare file ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Who change this lines ##
 
 ## Revision Graph ##
 
 ## Blame ##
+
+## Resolve Conflict ##
