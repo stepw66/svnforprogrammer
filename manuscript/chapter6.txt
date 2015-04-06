@@ -150,11 +150,42 @@
 
 ## Get lock ##
 
-ฟังก์ชั่นตัวนี้ 
+ฟังก์ชั่นตัวนี้หากคลิกขวาที่ไฟล์ใดๆแล้วเลือก TortoiseSVN \> Get lock... ก็จะเห็น มันเป็นฟังก์ชั่นที่ใช้สำหรับล้อกไฟล์ห้ามใครแก้ไขจนกว่าเราจะ commit ไฟล์นี้เสร็จ หรือจนกว่าเราจะยกเลิกการล้อก 
 
 ![](images/chapter6/tortoisesvn_getlock_01.png)
 
+หน้าต่างสำหรับป้อนข้อความให้แสดงเมื่อมีคนอื่นจะแก้ไขไฟล์ ป้อนข้อความให้คนอื่นอ่านแล้วเข้าใจว่าทำไมต้องล้อกไฟล์ จากนั้นคลิก OK
+![](images/chapter6/tortoisesvn_getlock_02.png)
+
+แต่อย่างไรก็ตาม เพื่อเป็นการป้องกันกรณีที่มีคนล้อกไฟล์ไว้แล้วลืม แล้วเจ้าตัวก็ดันไม่อยู่ TortoiseSVN อนุญาติให้มีการ Steal lock ได้ คือยึดสิทธิ์การล้อกไฟล์มาเป็นของตัวเอง
+
+คลิกขวาที่ไฟล์เลือก TortoiseSVN \> Get lock
+
+![](images/chapter6/tortoisesvn_getlock_03.png)
+
+ในหน้าต่าง Get lock ให้ติ๊กเครื่องหมายถูกหน้า Steal lock
+
+![](images/chapter6/tortoisesvn_getlock_04.png)
 
 
+## Release lock ##
+
+โดยปกติการล้อกไฟล์จะถูกยกเลิกอัตโนมัติเมื่อเราทำการ commit ไฟล์ไปครั้งหนึ่ง แต่หากไม่มีการ commit แล้วต้องการยกเลิกการล้อกไฟล์ สามารถทำได้โดย
+
+1. คลิกขวาบนไฟล์ที่ถูกล้อก เลือก TortoiseSVN \> Release lock...
+
+    ![](images/chapter6/tortoisesvn_releaselock_01.png)
+
+2. เลือกไฟล์ที่ต้องการปลดล้อก ซึ่งปกติมันก็เลือกถูกต้องอยู่แล้ว คลิกปุ่ม OK
+
+    ![](images/chapter6/tortoisesvn_releaselock_02.png)
+
+3. การปลดล้อกเสร็จเรียบร้อย คลิกปุ่ม OK
+
+    ![](images/chapter6/tortoisesvn_releaselock_03.png)
+
+## Create patch ##
+
+## Apply patch ##
 
 ## Resolve Conflict ##
