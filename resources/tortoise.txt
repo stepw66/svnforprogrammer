@@ -1,0 +1,11 @@
+﻿Import / Export
+Resolve Conflict
+View Differrence
+Locking / Unlocking
+Who change this line
+Revision Graph
+Ignore Files and Directories
+
+
+
+Blame

@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Untitled Page</Property><Property name="id">1435991945713_7869</Property><Property name="width">977</Property><Property name="height">542</Property><Property name="dimBackground"/><Property name="transparentBackground"/><Property name="backgroundColor">#ffffff</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="5ef856a3ce1b40ce9f35d8c95551b381" transform="matrix(1,0,0,1,173,100)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="85383554b9464d9180b3a705caf80927">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="f9757cba550744f3a6fc42c60028f511">
+                    <ellipse p:name="ellipse" id="6dc9b430299141abb728664f831e7702" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#f9757cba550744f3a6fc42c60028f511" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#85383554b9464d9180b3a705caf80927)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="bac5833cd22e484eafbb3c9ff0ad9692"/>
+            <use xlink:href="#f9757cba550744f3a6fc42c60028f511" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="a115e8f71d85484a9b04d992e2efcfda" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="3477ea5ae4b040d6bd694b4d6001b605" transform="matrix(1,0,0,1,242,100)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="2ddff8dcad9444f6bfb934f0d8e34db6">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="c9e28990c6da467f89279ec03b6aa4c3">
+                    <ellipse p:name="ellipse" id="b3fcd70b58a04148ba7f6a06e8be3421" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#c9e28990c6da467f89279ec03b6aa4c3" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#2ddff8dcad9444f6bfb934f0d8e34db6)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="c3d80c7e04dc4e59b63b3f6e5c82faa5"/>
+            <use xlink:href="#c9e28990c6da467f89279ec03b6aa4c3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="aeff7eabae0145499f07cd45a3e10c15" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="7cc646e987a849a889ec35055abbe0d5" transform="matrix(1,0,0,1,197,113)"><p:metadata><p:property name="startPin" p:viay="-3" p:viax="6" p:connectedOutletId="middle-right" p:connectedShapeId="5ef856a3ce1b40ce9f35d8c95551b381"><![CDATA[-4,-3]]></p:property><p:property name="endPin" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605" p:connectedOutletId="middle-left" p:viax="35" p:viay="-3"><![CDATA[45,-3]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="ae3531e593fa422c93a0b7dbb7ab1c5d" d="M -4 -3 C 26 -3 15 -3 45 -3"/>
+            </defs>
+            <use xlink:href="#ae3531e593fa422c93a0b7dbb7ab1c5d" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#ae3531e593fa422c93a0b7dbb7ab1c5d" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="62b66d99fb814f6aa8db2ee0df92668e" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="8968cdb04ca5403aab1ca9a0206dc371" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#ae3531e593fa422c93a0b7dbb7ab1c5d" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="78a6d52d38c84dd99b90219879185937" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" id="dbd84591e61048f495d00b09be8d56bb" transform="matrix(1,0,0,1,120,117)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Trunk]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="00407b7ca2da4c04befbe81f7918d90a" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="3a18fd4dac8c416f9362daf11ce8a5e5" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Trunk</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="4c175c6799d04a0ca310d4ca22ad0afa" transform="matrix(1,0,0,1,287,167)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="154dd8b1b3f44093a1ab244f8576dbf2">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="ac83a360a1ce4a3b80e2edbd212d90eb">
+                    <ellipse p:name="ellipse" id="1ffbbb99c0c441d6afbf5861a8629273" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 102, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#ac83a360a1ce4a3b80e2edbd212d90eb" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#154dd8b1b3f44093a1ab244f8576dbf2)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="2fb7fcedc3e24789915e230582d42acb"/>
+            <use xlink:href="#ac83a360a1ce4a3b80e2edbd212d90eb" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="c04594cec42d4b43a4ea407dc5cadea7" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="d0c621081c12424eb2a7d7845229c729" transform="matrix(1,0,0,1,426,167)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="a34e48db91324801a4197bf82367ab95">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="075d36646bdf4148a7525df1e81a3fcf">
+                    <ellipse p:name="ellipse" id="ebd959081eab416789bd29676a6630e8" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 102, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#075d36646bdf4148a7525df1e81a3fcf" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#a34e48db91324801a4197bf82367ab95)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="912b4d77f5d04ba4abed7833222c5756"/>
+            <use xlink:href="#075d36646bdf4148a7525df1e81a3fcf" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="10f17d6d3ad548adb60f83963e5164ef" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="870fed4269ef4ea6a1876698b72dc6d4" transform="matrix(1,0,0,1,359,167)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="5840aba77ef741fab3b6b1af906b3c8e">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="8bd810d79dc54129a301a84bfeea5624">
+                    <ellipse p:name="ellipse" id="d570e60310be49e094067f9174da0a00" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 102, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#8bd810d79dc54129a301a84bfeea5624" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#5840aba77ef741fab3b6b1af906b3c8e)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="75ac0c7de62e4506938032dee41bd307"/>
+            <use xlink:href="#8bd810d79dc54129a301a84bfeea5624" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="4988a86649f246fd8e334895d0425385" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="c655d325e8c247689ac7529a8d558f63" transform="matrix(1,0,0,1,253,123)"><p:metadata><p:property name="startPin" p:viay="-13" p:viax="-50" p:connectedOutletId="middle-right" p:connectedShapeId="5ef856a3ce1b40ce9f35d8c95551b381"><![CDATA[-60,-13]]></p:property><p:property name="endPin" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605" p:connectedOutletId="middle-left" p:viax="-21" p:viay="-13"><![CDATA[-11,-13]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="6338f9a822d6406f9da788132b60ce9b" d="M -60 -13 C -30 -13 -41 -13 -11 -13"/>
+            </defs>
+            <use xlink:href="#6338f9a822d6406f9da788132b60ce9b" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#6338f9a822d6406f9da788132b60ce9b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="404ceede50024840b34a1dc197089638" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="066861ac429648d29ba6c0e1123e4759" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#6338f9a822d6406f9da788132b60ce9b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="a0959bffc002468c944fb2e66c51579c" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="1bad17e8a58048a3894e6f1735491696" transform="matrix(1,0,0,1,264,244)"><p:metadata><p:property name="startPin" p:connectedShapeId="5ef856a3ce1b40ce9f35d8c95551b381" p:connectedOutletId="middle-right" p:viax="-61" p:viay="-134"><![CDATA[-71,-134]]></p:property><p:property name="endPin" p:viay="-134" p:viax="-32" p:connectedOutletId="middle-left" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605"><![CDATA[-22,-134]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="0284d5cd731e419da50ebe45f1f875a1" d="M -71 -134 C -41 -134 -52 -134 -22 -134"/>
+            </defs>
+            <use xlink:href="#0284d5cd731e419da50ebe45f1f875a1" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#0284d5cd731e419da50ebe45f1f875a1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="e06bae65244a4d61885c943de112e06a" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="b094a7c1c1d7469f8fd8ab4deba69d22" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#0284d5cd731e419da50ebe45f1f875a1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="d2654bf387b14d4b968b929437f336ee" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="8bf7971027f74e258b3838fdc84e1117" transform="matrix(1,0,0,1,253,125)"><p:metadata><p:property name="startPin" p:viay="5" p:viax="-1" p:connectedOutletId="bottom-center" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605"><![CDATA[-1,-5]]></p:property><p:property name="endPin" p:connectedShapeId="4c175c6799d04a0ca310d4ca22ad0afa" p:connectedOutletId="middle-left" p:viax="24" p:viay="52"><![CDATA[34,52]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="a90221b47b5f4ecda52bbb11a88c0a5f" d="M -1 -5 C -1 28 1 52 34 52"/>
+            </defs>
+            <use xlink:href="#a90221b47b5f4ecda52bbb11a88c0a5f" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#a90221b47b5f4ecda52bbb11a88c0a5f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="c225b036cf7b41348fbcbf1674b0d535" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="5e677277387248809f830809da3a3781" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#a90221b47b5f4ecda52bbb11a88c0a5f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="09f7b4b2336e4121ad5694b4d2c3dcd5" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="8dbb5856dd1149399a2afca90d7d8877" transform="matrix(1,0,0,1,311,187)"><p:metadata><p:property name="startPin" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605" p:connectedOutletId="bottom-center" p:viax="-59" p:viay="-57"><![CDATA[-59,-67]]></p:property><p:property name="endPin" p:viay="-10" p:viax="-34" p:connectedOutletId="middle-left" p:connectedShapeId="4c175c6799d04a0ca310d4ca22ad0afa"><![CDATA[-24,-10]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="e9ba1da1cbe34ae69bddcca7c8696df2" d="M -59 -67 C -59 -34 -57 -10 -24 -10"/>
+            </defs>
+            <use xlink:href="#e9ba1da1cbe34ae69bddcca7c8696df2" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#e9ba1da1cbe34ae69bddcca7c8696df2" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="117e394ad60f4c8fa30e45f5e18771cc" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="132715769d654f029f6c25ae35007869" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#e9ba1da1cbe34ae69bddcca7c8696df2" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2e732765648249da91715f74490339cd" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="8d73567b00d74a2cb54492c6ca9795d3" transform="matrix(1,0,0,1,211,219)"><p:metadata><p:property name="startPin" p:viay="-42" p:viax="106" p:connectedOutletId="middle-right" p:connectedShapeId="4c175c6799d04a0ca310d4ca22ad0afa"><![CDATA[96,-42]]></p:property><p:property name="endPin" p:connectedShapeId="870fed4269ef4ea6a1876698b72dc6d4" p:connectedOutletId="middle-left" p:viax="138" p:viay="-42"><![CDATA[148,-42]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="112283b4dc3247c69f91ee1e84789d17" d="M 96 -42 C 126 -42 118 -42 148 -42"/>
+            </defs>
+            <use xlink:href="#112283b4dc3247c69f91ee1e84789d17" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#112283b4dc3247c69f91ee1e84789d17" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="08aa850b6caa46a595094d6ba658e8d6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="866297f2682a41c0b612189eedb2f4de" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#112283b4dc3247c69f91ee1e84789d17" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="72a715027445474895f81a5325e2be42" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="6e6c685b5440469d9e92de463f7dd5f1" transform="matrix(1,0,0,1,381,172)"><p:metadata><p:property name="startPin" p:viay="5" p:viax="8" p:connectedOutletId="middle-right" p:connectedShapeId="870fed4269ef4ea6a1876698b72dc6d4"><![CDATA[-2,5]]></p:property><p:property name="endPin" p:connectedShapeId="d0c621081c12424eb2a7d7845229c729" p:connectedOutletId="middle-left" p:viax="35" p:viay="5"><![CDATA[45,5]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="b73bcd39320941f68f96ee89f81cfacc" d="M -2 5 C 28 5 15 5 45 5"/>
+            </defs>
+            <use xlink:href="#b73bcd39320941f68f96ee89f81cfacc" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#b73bcd39320941f68f96ee89f81cfacc" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="8031e401ef1a453db1373c95e301fb66" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="76703da70ef64efc8a2e17bc1f65976e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#b73bcd39320941f68f96ee89f81cfacc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c2b62a067ea44727952accb94230b465" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="26c1f8f016f4416d8320f38107286c10" transform="matrix(1,0,0,1,459,100)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="f2ce7053822d447fbfa36e7696b1a74f">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="b955aac88044472d871e474011ded571">
+                    <ellipse p:name="ellipse" id="ed92223e1b1e4affbabfdcf5fc4da4e3" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#b955aac88044472d871e474011ded571" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#f2ce7053822d447fbfa36e7696b1a74f)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="7fde494cd78d437fa74e39bd0f01ee6b"/>
+            <use xlink:href="#b955aac88044472d871e474011ded571" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="a20a168c8fa64cccb2019a7ddcdb7291" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="777a8f21c8e54e92901e91ee336da7c0" transform="matrix(1,0,0,1,454,168)"><p:metadata><p:property name="startPin" p:viay="9" p:viax="2" p:connectedOutletId="middle-right" p:connectedShapeId="d0c621081c12424eb2a7d7845229c729"><![CDATA[-8,9]]></p:property><p:property name="endPin" p:viay="-38" p:viax="15" p:connectedOutletId="bottom-center" p:connectedShapeId="26c1f8f016f4416d8320f38107286c10"><![CDATA[15,-48]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="53d1c53e1f514d9c90497d5b69096e7b" d="M -8 9 C 23 9 15 -17 15 -48"/>
+            </defs>
+            <use xlink:href="#53d1c53e1f514d9c90497d5b69096e7b" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#53d1c53e1f514d9c90497d5b69096e7b" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="2a85044381f048f0af919dda8b62bffc" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="77dd26ba0f83434caa0694c2d9d4b8d8" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#53d1c53e1f514d9c90497d5b69096e7b" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="c6075500983c4e65ae0ead3772d91d89" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" id="3a84e3061ba54fc1becc2764b5ef97f4" transform="matrix(1,0,0,1,194,180)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Branch 1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="4b79c0ada3464fcf97a1c0326692ad9a" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="c7e2abede1af4975b90fd3694658ee2d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Branch 1</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="8de5ed15b319482fa6110e62d9e57d82" transform="matrix(1,0,0,1,292,257)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFF66FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="451a4e83524543a8bd3e80d72fa54c94">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="f84d4470bc9b496fa2bb4af7eefcfe85">
+                    <ellipse p:name="ellipse" id="8da9c86a84c14f0a83fa91363a8454c6" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 255, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#f84d4470bc9b496fa2bb4af7eefcfe85" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#451a4e83524543a8bd3e80d72fa54c94)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="b6f9128efd8640129616f81b39a054ad"/>
+            <use xlink:href="#f84d4470bc9b496fa2bb4af7eefcfe85" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="c2ff333686444621855072be4460c1b3" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="a3ff98ea20f54fd79de5e72c957a953f" transform="matrix(1,0,0,1,431,257)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFF66FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="6b460703b7f44135b98a710da0e96a51">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="41ca58d6404b43bea3b8beb34d603146">
+                    <ellipse p:name="ellipse" id="854d45606ec94a8eaa42b8fe411c130d" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 255, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#41ca58d6404b43bea3b8beb34d603146" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#6b460703b7f44135b98a710da0e96a51)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="18f3bf4caa8a48788cda9b311a1f3620"/>
+            <use xlink:href="#41ca58d6404b43bea3b8beb34d603146" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="75adddb836a243a19ee4726dc3f6b047" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="16c7c5c112dc404eb1db828eb390a0fc" transform="matrix(1,0,0,1,364,257)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFF66FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="89293493ecab48f1926871c41556dd01">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="fb4a22588ca5407f9db7cc3c8dc0fa89">
+                    <ellipse p:name="ellipse" id="58496995f3c84067995556ce5bfb9f3a" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 255, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#fb4a22588ca5407f9db7cc3c8dc0fa89" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#89293493ecab48f1926871c41556dd01)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="ab0ac259c4bf40499f63003432bd06c1"/>
+            <use xlink:href="#fb4a22588ca5407f9db7cc3c8dc0fa89" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="c299d1a0c07d448f96b307cbaebd42a5" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="e10ddc87e09b49f0a65baf77aef32bd8" transform="matrix(1,0,0,1,216,309)"><p:metadata><p:property name="startPin" p:connectedShapeId="4c175c6799d04a0ca310d4ca22ad0afa" p:connectedOutletId="middle-right" p:viax="101" p:viay="-132"><![CDATA[91,-132]]></p:property><p:property name="endPin" p:viay="-132" p:viax="133" p:connectedOutletId="middle-left" p:connectedShapeId="870fed4269ef4ea6a1876698b72dc6d4"><![CDATA[143,-132]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="cba39b8e3c624e9eb35f2aa6c9eec020" d="M 91 -132 C 121 -132 113 -132 143 -132"/>
+            </defs>
+            <use xlink:href="#cba39b8e3c624e9eb35f2aa6c9eec020" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#cba39b8e3c624e9eb35f2aa6c9eec020" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="0f1a79f829c9429bbafed03d0ca0c9df" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="0b1d785eae17450eaeed5c40c7a69287" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#cba39b8e3c624e9eb35f2aa6c9eec020" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="fc61b7db760d41e5accead92421777ae" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="eab6b1995d17453cb2318dce5e25bc57" transform="matrix(1,0,0,1,386,262)"><p:metadata><p:property name="startPin" p:connectedShapeId="870fed4269ef4ea6a1876698b72dc6d4" p:connectedOutletId="middle-right" p:viax="3" p:viay="-85"><![CDATA[-7,-85]]></p:property><p:property name="endPin" p:viay="-85" p:viax="30" p:connectedOutletId="middle-left" p:connectedShapeId="d0c621081c12424eb2a7d7845229c729"><![CDATA[40,-85]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="c548d36a95a94d97828323db9b1e8c2f" d="M -7 -85 C 23 -85 10 -85 40 -85"/>
+            </defs>
+            <use xlink:href="#c548d36a95a94d97828323db9b1e8c2f" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#c548d36a95a94d97828323db9b1e8c2f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="590148c6ba3f4ba184d91dd354a122f6" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="6861e704bac84ebc901196e10fdd77a8" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#c548d36a95a94d97828323db9b1e8c2f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="949739b0ff3c44f398ee7c3942856080" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="41eff8ef92ce41df809e894e0771fb2c" transform="matrix(1,0,0,1,507,257)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFF66FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="d6953aa708a24aa7827e04e4591b1774">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="efde5e7f8a0548778ebeb45ac65c6250">
+                    <ellipse p:name="ellipse" id="398cac3b90cb45aeaca9c300ce564a0a" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 255, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#efde5e7f8a0548778ebeb45ac65c6250" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#d6953aa708a24aa7827e04e4591b1774)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="dd4cfb06e95d40fbb97ace460061393b"/>
+            <use xlink:href="#efde5e7f8a0548778ebeb45ac65c6250" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="1d9e96cbca98495db19ce7027739ad4b" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="f6b9b185401a4a9fb24c9bd180c2901a" transform="matrix(1,0,0,1,573,257)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFF66FF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="f0c27067c5d849fca3eac2f6510cea36">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="83aea78191114c9280f730be6aaeb9c3">
+                    <ellipse p:name="ellipse" id="215e1e07590a4252b83cf615374ef537" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(255, 255, 102); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#83aea78191114c9280f730be6aaeb9c3" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#f0c27067c5d849fca3eac2f6510cea36)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="bf5b90341d784258960ce6c8c084396f"/>
+            <use xlink:href="#83aea78191114c9280f730be6aaeb9c3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="ec61928c814b4bed9fa5ddc5d0cccf5d" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="f85a25354665476d908ce3cfa5d3d1d1" transform="matrix(1,0,0,1,178,206)"><p:metadata><p:property name="startPin" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605" p:connectedOutletId="bottom-center" p:viax="74" p:viay="-76"><![CDATA[74,-86]]></p:property><p:property name="endPin" p:connectedShapeId="8de5ed15b319482fa6110e62d9e57d82" p:connectedOutletId="middle-left" p:viax="104" p:viay="61"><![CDATA[114,61]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="30ae5d7074ed4ea884f580f6fb13460a" d="M 74 -86 C 74 -26 54 61 114 61"/>
+            </defs>
+            <use xlink:href="#30ae5d7074ed4ea884f580f6fb13460a" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#30ae5d7074ed4ea884f580f6fb13460a" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="f8a6a98dad0646bb95bd985ec756f176" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="684eb909aef0413ea029d75c52aa0c39" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#30ae5d7074ed4ea884f580f6fb13460a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="2a2f74ea42a945699f367daa23b0ebc3" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" id="3bcd251d09de45e392954c5d02d13378" transform="matrix(1,0,0,1,198,270)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Branch 2]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="44adef7185794949ba0cf070c42e00a8" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="d4d6a89972ea44f59f73b2c2eaf737f3" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Branch 2</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="f014b90c41fb40f4acf6c5eb90f2260b" transform="matrix(1,0,0,1,307,258)"><p:metadata><p:property name="startPin" p:viay="9" p:viax="15" p:connectedOutletId="middle-right" p:connectedShapeId="8de5ed15b319482fa6110e62d9e57d82"><![CDATA[5,9]]></p:property><p:property name="endPin" p:viay="9" p:viax="47" p:connectedOutletId="middle-left" p:connectedShapeId="16c7c5c112dc404eb1db828eb390a0fc"><![CDATA[57,9]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="dc6f10e2d44e41a8a95da5e7f3012b01" d="M 5 9 C 35 9 27 9 57 9"/>
+            </defs>
+            <use xlink:href="#dc6f10e2d44e41a8a95da5e7f3012b01" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#dc6f10e2d44e41a8a95da5e7f3012b01" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6a0dabad07a6470ebe271af9df614e80" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="01bc6d5f38bd44a09f9f6ab9800cdb36" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#dc6f10e2d44e41a8a95da5e7f3012b01" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="34eaf26a5a9446208b78b1ee2a9963f9" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="d926b055396f4145b995410fcabe92e5" transform="matrix(1,0,0,1,391,262)"><p:metadata><p:property name="startPin" p:connectedShapeId="16c7c5c112dc404eb1db828eb390a0fc" p:connectedOutletId="middle-right" p:viax="3" p:viay="5"><![CDATA[-7,5]]></p:property><p:property name="endPin" p:connectedShapeId="a3ff98ea20f54fd79de5e72c957a953f" p:connectedOutletId="middle-left" p:viax="30" p:viay="5"><![CDATA[40,5]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="70c1e5bf17d240b6af5c26357d995020" d="M -7 5 C 23 5 10 5 40 5"/>
+            </defs>
+            <use xlink:href="#70c1e5bf17d240b6af5c26357d995020" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#70c1e5bf17d240b6af5c26357d995020" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="6f9cc28f7e3e46fc9fae7ce40ae69879" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="4f2afde849984e808f1e416a3ecc03f9" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#70c1e5bf17d240b6af5c26357d995020" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="37febed51f204c7f940518eab40b5145" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="a9622252d28b48ac9f40c9fe8051aad2" transform="matrix(1,0,0,1,446,287)"><p:metadata><p:property name="startPin" p:connectedShapeId="a3ff98ea20f54fd79de5e72c957a953f" p:connectedOutletId="middle-right" p:viax="15" p:viay="-20"><![CDATA[5,-20]]></p:property><p:property name="endPin" p:connectedShapeId="41eff8ef92ce41df809e894e0771fb2c" p:connectedOutletId="middle-left" p:viax="51" p:viay="-20"><![CDATA[61,-20]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="9173a298c9644be096a263c3e28a34fe" d="M 5 -20 C 35 -20 31 -20 61 -20"/>
+            </defs>
+            <use xlink:href="#9173a298c9644be096a263c3e28a34fe" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#9173a298c9644be096a263c3e28a34fe" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b3d81d3845b14a78892aef132ec64061" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="d77b9b6214ae40859e767b5b1409e526" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#9173a298c9644be096a263c3e28a34fe" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="6b9a5c492f114fc89927811909923df7" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="5484d3a87aeb4e9fb90d6c99aa3087d5" transform="matrix(1,0,0,1,521,312)"><p:metadata><p:property name="startPin" p:connectedShapeId="41eff8ef92ce41df809e894e0771fb2c" p:connectedOutletId="middle-right" p:viax="16" p:viay="-45"><![CDATA[6,-45]]></p:property><p:property name="endPin" p:connectedShapeId="f6b9b185401a4a9fb24c9bd180c2901a" p:connectedOutletId="middle-left" p:viax="42" p:viay="-45"><![CDATA[52,-45]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="57256cb73fc54094a739d09d7f2028c3" d="M 6 -45 C 36 -45 22 -45 52 -45"/>
+            </defs>
+            <use xlink:href="#57256cb73fc54094a739d09d7f2028c3" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#57256cb73fc54094a739d09d7f2028c3" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="48727e448a6d483cb7813d00a4208505" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="8bad88cc1e7d4364af3ff24c8be16b5d" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#57256cb73fc54094a739d09d7f2028c3" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="40ac8920432a4629b9f3c41492b0cacb" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="d7f33940f4d0443ebb5547a0032bd8cb" transform="matrix(1,0,0,1,608,100)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="692faf2a39644f7d9d538cbc53ce7c12">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="411cb6ad9485472a9775b917735a81c4">
+                    <ellipse p:name="ellipse" id="924d4519251f4378917322dd342f9015" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#411cb6ad9485472a9775b917735a81c4" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#692faf2a39644f7d9d538cbc53ce7c12)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="fbd859c5715a4fdfb3bdd0045cb2f49f"/>
+            <use xlink:href="#411cb6ad9485472a9775b917735a81c4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="e9f9b86016e849f98a756d373f23f83b" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="da65d94d3873447bb43c27980ae4ffac" transform="matrix(1,0,0,1,592,236)"><p:metadata><p:property name="startPin" p:connectedShapeId="f6b9b185401a4a9fb24c9bd180c2901a" p:connectedOutletId="middle-right" p:viax="11" p:viay="31"><![CDATA[1,31]]></p:property><p:property name="endPin" p:connectedShapeId="d7f33940f4d0443ebb5547a0032bd8cb" p:connectedOutletId="bottom-center" p:viax="26" p:viay="-106"><![CDATA[26,-116]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="4829c0fb063c45198d78bc4a8eb73082" d="M 1 31 C 61 31 26 -56 26 -116"/>
+            </defs>
+            <use xlink:href="#4829c0fb063c45198d78bc4a8eb73082" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#4829c0fb063c45198d78bc4a8eb73082" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="68cc782db5ff44b0b7b7528ceb98f409" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="2313eccca81649ce984b9b5fa2dab653" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#4829c0fb063c45198d78bc4a8eb73082" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4b27cf61426f4ad788145062b49993d6" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="c0ff9951ac614f238e5d4c740ac710f8" transform="matrix(1,0,0,1,713,157)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="ddb87155e98a44caa48dc8f4f2067d5a">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="c3d72d8da5e040bca37c4b2fa9113fd8">
+                    <ellipse p:name="ellipse" id="fab1412f07374abc9ce4140aafe3e7c4" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#c3d72d8da5e040bca37c4b2fa9113fd8" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#ddb87155e98a44caa48dc8f4f2067d5a)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="ec1c48a9510a404db2b54fccb05ee35a"/>
+            <use xlink:href="#c3d72d8da5e040bca37c4b2fa9113fd8" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="8416645b1aa3464d96dc5678b97d4a13" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bullet" id="eabe90cb28f6488ebc7a2273704527a9" transform="matrix(1,0,0,1,750,100)"><p:metadata><p:property name="box"><![CDATA[20,20]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.2558399" x="-0.12792" p:name="imageShading" id="04b81126be89455cba4a5139b350cef5">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="79b66c50aac545698a17ff5cb3984123">
+                    <ellipse p:name="ellipse" id="5b4caa0257c641edb0d5fc81671a516d" cx="10" cy="10" rx="10" ry="10" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+                </g>
+            </defs>
+            <use xlink:href="#79b66c50aac545698a17ff5cb3984123" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#04b81126be89455cba4a5139b350cef5)" style="opacity: 0.6; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="d4c854425be142889da13f3ebcab0b44"/>
+            <use xlink:href="#79b66c50aac545698a17ff5cb3984123" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="2" width="20" height="16" p:name="text" id="1a1c6be526b4485a9fa39aff63f9bbd9" style="fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="e96004d2dac64e288d53cc62529612e9" transform="matrix(1,0,0,1,271,101)"><p:metadata><p:property name="startPin" p:viay="9" p:viax="1" p:connectedOutletId="middle-right" p:connectedShapeId="3477ea5ae4b040d6bd694b4d6001b605"><![CDATA[-9,9]]></p:property><p:property name="endPin" p:viay="9" p:viax="178" p:connectedOutletId="middle-left" p:connectedShapeId="26c1f8f016f4416d8320f38107286c10"><![CDATA[188,9]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="840c90c79af843a59755634225ed4783" d="M -9 9 C 51 9 128 9 188 9"/>
+            </defs>
+            <use xlink:href="#840c90c79af843a59755634225ed4783" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#840c90c79af843a59755634225ed4783" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="64abacfe19ef4ef7a78be542abe96e79" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="ce8a5e470a314b23b9fca5177f4d3976" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#840c90c79af843a59755634225ed4783" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1f019b312a154b03b53e7d171bfd1cf9" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="a611afe49cc940fcb20dbbbe33cf5830" transform="matrix(1,0,0,1,493,101)"><p:metadata><p:property name="startPin" p:connectedShapeId="26c1f8f016f4416d8320f38107286c10" p:connectedOutletId="middle-right" p:viax="-4" p:viay="9"><![CDATA[-14,9]]></p:property><p:property name="endPin" p:connectedShapeId="d7f33940f4d0443ebb5547a0032bd8cb" p:connectedOutletId="middle-left" p:viax="105" p:viay="9"><![CDATA[115,9]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="854f80e290404302a112df030f6228f6" d="M -14 9 C 46 9 55 9 115 9"/>
+            </defs>
+            <use xlink:href="#854f80e290404302a112df030f6228f6" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#854f80e290404302a112df030f6228f6" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="796a7b05aa4743e580944b97e9dbf108" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="8e2508bf925043c1b458a48ec494bc82" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#854f80e290404302a112df030f6228f6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="4a71b1c1474a4f8297c535dbb05290a5" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="824c8135aad64ae997b041a888163005" transform="matrix(1,0,0,1,632,121)"><p:metadata><p:property name="startPin" p:connectedShapeId="d7f33940f4d0443ebb5547a0032bd8cb" p:connectedOutletId="middle-right" p:viax="6" p:viay="-11"><![CDATA[-4,-11]]></p:property><p:property name="endPin" p:viay="46" p:viax="71" p:connectedOutletId="middle-left" p:connectedShapeId="c0ff9951ac614f238e5d4c740ac710f8"><![CDATA[81,46]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="7e66c964d20d4f02acd2fc7e13c0460f" d="M -4 -11 C 47 -11 30 46 81 46"/>
+            </defs>
+            <use xlink:href="#7e66c964d20d4f02acd2fc7e13c0460f" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#7e66c964d20d4f02acd2fc7e13c0460f" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="48b6bad384114861afcb05598489ee11" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="e98934a1c3a64c9f9e4c3ab3c439b819" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#7e66c964d20d4f02acd2fc7e13c0460f" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="309d209d4226422f98d29c8dfe3aaf5d" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="089e9c7b989f4189a2bff1a0b07e4891" transform="matrix(1,0,0,1,739,111)"><p:metadata><p:property name="startPin" p:connectedShapeId="d7f33940f4d0443ebb5547a0032bd8cb" p:connectedOutletId="middle-right" p:viax="-101" p:viay="-1"><![CDATA[-111,-1]]></p:property><p:property name="endPin" p:viay="-1" p:viax="1" p:connectedOutletId="middle-left" p:connectedShapeId="eabe90cb28f6488ebc7a2273704527a9"><![CDATA[11,-1]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[false]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="74efe8e099654340b0fd9d747987ec54" d="M -111 -1 C -51 -1 -49 -1 11 -1"/>
+            </defs>
+            <use xlink:href="#74efe8e099654340b0fd9d747987ec54" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#74efe8e099654340b0fd9d747987ec54" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="a71ea8321eff415d8a6add5cb6e2657b" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="d3a21aef650b4c2aa238ccb20d07addd" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#74efe8e099654340b0fd9d747987ec54" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="45dee378237e4288860126744636fa27" dx="0"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="14be095786bf474d861e5f40e527877e" transform="matrix(1,0,0,1,834,111)"><p:metadata><p:property name="startPin" p:connectedShapeId="eabe90cb28f6488ebc7a2273704527a9" p:connectedOutletId="middle-right" p:viax="-54" p:viay="-1"><![CDATA[-64,-1]]></p:property><p:property name="endPin"><![CDATA[50,-1]]></p:property><p:property name="withStartArrow"><![CDATA[false]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="d0e3a69f62e84a18b5826134833673e1" d="M -64 -1 C -7 -1 -7 -1 50 -1 M 44 -7 L 50 -1 L 44 5"/>
+            </defs>
+            <use xlink:href="#d0e3a69f62e84a18b5826134833673e1" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#d0e3a69f62e84a18b5826134833673e1" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="9726301fb06e4982ae26880eee5a5693" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="8aca52f1c8bb43adbf94763fba441cfa" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#d0e3a69f62e84a18b5826134833673e1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="06eff182942f488fb36daae4384916ab" dx="-16"></tspan>
+                </textPath>
+            </text>
+
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" id="fe692eeb691148d2afabc1b50d48dba1" transform="matrix(1,0,0,1,708,141)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[V 1.0]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="504efdaeecef42f3819ee589edd95ec6" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="283a4ae8133e48ecb5b723087082e256" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">V 1.0</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" id="9a5a086754014df18500e5aeb36ce0da" transform="matrix(1,0,0,1,713,201)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Tag]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="ad8eaee7c4b246d7a177337f9602613e" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="c1a51dc1727245a7bb31204344c37e6f" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Tag</tspan></text>
+        </g></Content></Page></Pages></Document>
