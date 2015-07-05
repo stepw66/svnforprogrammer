@@ -63,6 +63,8 @@ tags : ไว้เก็บโค้ด tags (จะอธิบายควา
 
 ผมจะจินตนาการว่าท่านได้ Checkout โค้ดลงมาที่เครื่องท่านแล้ว 
 
+### แตก Branch trunk ###
+
 1. คลิกขวาบนโฟลเดอร์โปรเจ็กที่ Checkout จาก Repository มาที่เครื่อง เลือก TortoiseSVN \> Branch/Tag...
 
     ![](images/chapter7/branching-01.png)
@@ -73,24 +75,128 @@ tags : ไว้เก็บโค้ด tags (จะอธิบายควา
 
     ถ้าท่านเปิดเข้าไปดูในโฟลเดอร์ที่ท่าน Checkout มา ท่านจะไม่เห็นโฟลเดอร์ trunk อยู่ในนั้นเพราะมันถูกสร้างบนส่วนเซิฟเวอร์ 
 
-3. ต่อไปเราจะสร้าง Branch branches เพื่อเก็บ branch ย่อยไว้ภายใน คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
+### แตก Branch branches ###
+
+1. ต่อไปเราจะสร้าง Branch branches เพื่อเก็บ branch ย่อยไว้ภายใน คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
 
     ![](images/chapter7/branching-01.png) 
 
-4. ในช่อง To path ป้อน /branches เพื่อแตก Branch branches ให้เป็น Branch container เก็บ Branch ย่อยอีกที ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branches เสร็จแล้วคลิกปุ่ม OK
+2. ในช่อง To path ป้อน /branches เพื่อแตก Branch branches ให้เป็น Branch container เก็บ Branch ย่อยอีกที ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branches เสร็จแล้วคลิกปุ่ม OK
 
     ![](images/chapter7/branching-04.png)
 
-5. ต่อไปเราจะสร้าง Branch ที่ใช้สำหรับทำงานซึ่งเก็บอยู่ใน branches อีกที คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
+### แตก Branch branch ###
+
+1. ต่อไปเราจะสร้าง Branch ที่ใช้สำหรับทำงานซึ่งเก็บอยู่ใน branches อีกที คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
 
     ![](images/chapter7/branching-01.png) 
 
-6. ในช่อง To path ป้อน /branches/feature1 เพื่อแตก Branch ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branche เสร็จแล้วคลิกปุ่ม OK
+2. ในช่อง To path ป้อน /branches/feature1 เพื่อแตก Branch ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branche เสร็จแล้วคลิกปุ่ม OK
 
     ![](images/chapter7/branching-05.png)
 
-7. การสร้าง Tag ก็เหมือนกับการแตก branch ธรรมดา
+### แตก Branch tags ###
+1. การสร้าง Tags ก็เหมือนกับการแตก branches ธรรมดา
+
+### แตก Branch tag ###
+1. การสร้าง Tag ก็เหมือนกับการแตก branche ธรรมดา
 
 โครงสร้างในการบริหารโปรเจ็กหรือทำงานภายในทีม จริงๆไม่จำเป็นต้องเป็น trunk, branches, tags  ก็ได้ จะตั้งชื่อเป็นอะไรก็ได้ จะแตกยังไงก็ได้ แต่มันไม่เป็นสากล เวลาคนอื่นเข้ามาร่วมแจมทีม เขาจะงง หรือหากเราไปแจมบริษัทอื่นที่เขาใช้ SVN เราก็อาจจะงง เพราะเราไม่เหมือนชาวบ้าน 
 
 ฉะนั้นทางที่ดี เขานิยมทำกันแบบไหนก็ทำตามแบบนั้นแหละ ดีที่สุด
+
+## การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (commit โค้ดไปแล้วด้วย)##
+
+ถึงแม้ว่าเราจะไม่ได้แตก Branch ไว้ตั้งแต่ทีแรก นั่นไม่่ใช่ปัญหา เราสามารถแตก Branch ภายหลังได้ ให้ผลไม่ต่างกันกับแตก Branch ตั้งแต่ต้น
+
+ผมจะจินตนาการว่าท่านได้ Checkout โค้ดลงมาที่เครื่องท่านแล้ว และ มีการ commit โค้ดเข้า Repository ไปแล้วด้วย 
+
+### แตก Branch trunk ###
+
+1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+
+    ![](images/chapter7/create_trunk_01.png)
+
+2. ในช่อง To path ป้อน /trunk ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter7/create_trunk_02.png)
+
+3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+
+    ![](images/chapter7/create_trunk_03.png)
+
+### แตก Branch branches ###
+
+เราสามารถแตก Branch สำหรับเป็น container เก็บ Branch ย่อยภายในได้ด้วย ซึ่งจะทำให้การจัดระเบียบโปรเจ็ก ดีขึ้น
+
+1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+
+    ![](images/chapter7/create_branches_01.png)
+
+2. ในช่อง To path ป้อน /branches ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter7/create_branches_02.png)
+
+3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+
+    ![](images/chapter7/create_branches_03.png)
+
+### แตก Branch branch ###
+
+เราจะแตก Branch branch ให้เป็น Branch ย่อยภายใน branches เพื่อจัดระเบียบ 
+
+1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+
+    ![](images/chapter7/create_branch_01.png)
+
+2. ในช่อง To path ป้อน /branch ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create branch จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter7/create_branch_02.png)
+
+3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+
+    ![](images/chapter7/create_branch_03.png)
+
+### แตก Branch tags ###
+
+1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+
+    ![](images/chapter7/create_tags_01.png)
+
+2. ในช่อง To path ป้อน /tags ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create tags container จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter7/create_tags_02.png)
+
+3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+
+    ![](images/chapter7/create_tags_03.png)
+
+### แตก Branch tag ###
+
+1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+
+    ![](images/chapter7/create_tag_01.png)
+
+2. ในช่อง To path ป้อน /tag ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create tags container จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter7/create_tag_02.png)
+
+3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+
+    ![](images/chapter7/create_tag_03.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
