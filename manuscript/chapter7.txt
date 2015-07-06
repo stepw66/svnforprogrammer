@@ -185,18 +185,112 @@ tags : ไว้เก็บโค้ด tags (จะอธิบายควา
 
     ![](images/chapter7/create_tag_03.png)
 
+## รายละเอียดหน้าต่างแตก Branch ##
 
+![](images/chapter7/branching_create_branch_detail.png)
 
+From WC/URL : เป็นตัวบอกว่าปัจจุบันเราทำงานอยู่ที่ Branch ไหน
+To path: ป้อนชื่อ Branch ที่เราต้องการสร้าง
+Destination URL : URL ของ Branch ที่เราสร้าง ซึ่ง หากเราเปิด URL นั้นเราสามารถดูโค้ดผ่านหน้าเว็บได้
+Log message : ป้อน comment เตือนความจว่าทำอะไรลงไป
+Recent messages : คลิกเพื่อเลือก message ที่เคยป้อนไว้และ TortoiseSVN เก็บไว้
+Create copy in the repository from  : ตัวเลือกว่าเราจะสร้าง Branch ใหม่โดยอ้างอิง revision ไหน
 
+    HEAD revision in the repository  :  สร้าง Branch ใหม่จาก revision ล่าสุดใน Repository
+    Specific revision in repository : คลิกปุ่ม Show Log เพื่อเลือก revision
+    Working copy : สร้าง Branch ใหม่โดยอ้างอิงจาก revision ล่าสุดใน Working copy
 
+Create intermediate folders : ให้สร้าง branch containner ให้อัตโนมัติ กรณีเราระบุสร้าง Branch ในช่อง To path เป็นแบบ Branch ย่อย เช่น /tags/version-1.1   
+Switch working copy to new branch/tag : สลับ Working copy ให้ไปใช้ Branch ที่เพิ่งสร้างขึ้นมาใหม่ทันที 
 
+## การตรวจสอบปัจจุบันเราอยู่ Branch ไหน ##
 
+การตรวจสอบว่า working copy ในเครื่องเรานั้น ปัจจุบันอยู่ที่ Branch ไหนสามารถเช็กได้ 2 วิธี
 
+### วิธีที่ 1 ###
 
+1. คลิกขวาบน working copy เลือก Properties
 
+    ![](images/chapter7/branching_check_current_branch_01.png)
 
+2. หน้าต่าง Properties ถูกเปิดขึ้นมา คลิกไปที่แท็บ Subversion ดูตรง URL เราก็จะรู้ว่าเราอยู่ Branch ไหน
 
+    ![](images/chapter7/branching_check_current_branch_01.png)
 
+### วิธีที่ 2 ###
 
+1. คลิกขวาบน working copy เลือก TortoiseSVN \> Branch/Tag...
 
+    ![](images/chapter7/branching_check_current_branch_03.png)
+ 
+2. ดูตรง From WC/URL เราก็จะรู้ว่าเราอยู่ Branch ไหน
 
+    ![](images/chapter7/branching_check_current_branch_04.png)
+
+## การสลับ Branch ##
+
+1. คลิกขวาบน Working copy เลือก TortoiseSVN \> Switch...
+
+    ![](images/chapter7/branching_switch_branch_01.png)
+
+2. ป้อนชื่อ Branch ที่ต้องการในช่อง To path เสร็จแล้วคลิกปุ่ม OK
+
+    ![](images/chapter7/branching_switch_branch_02.png)
+
+    หรือคลิกปุ่ม ... ที่อยู่ด้านหลังช่อง To path
+ 
+    ![](images/chapter7/branching_switch_branch_02_1.png)
+
+    เลือก Branch ตรงเพนด้านซ้ายมือ (เราจะเห็นว่าแท้จริงแล้ว Branch นั้นมันถูกเก็บเป็นโฟลเดอร์) เสร็จแล้วคลิกปุ่ม OK
+
+    ![](images/chapter7/branching_switch_branch_02_2.png)
+
+    คลิกปุ่ม OK อีกครั้ง
+
+    ![](images/chapter7/branching_switch_branch_02_3.png)
+
+## การรวม Branch ##
+
+สมมติว่าเราพัฒนาโค้ดเรียบร้อยแล้ว และต้องการเอามันส่งลูกค้าหรือเอาขึ้นโปรดักษ์ชั่น แล้ว เราจะทำการรวม branch เข้าสู่ trunk ซึ่งขั้นตอนให้ทำดังนี้
+
+1. สลับ Branch ไปอยู่ Branch trunk (ให้ใช้ความคิดว่า เอามารวม ไม่ใช่เอาไปรวม)
+
+2. คลิกขวาบน Working copy เลือก TortoiseSVN \> Merge...
+
+    ![](images/chapter7/branching_merge_branch_01.png)
+
+3. เลือก Merge a range of revisions จากนั้นคลิก Next
+
+    ![](images/chapter7/branching_merge_branch_02.png)
+
+4. คลิกปุ่ม ... หลังช่อง URL
+
+    ![](images/chapter7/branching_merge_branch_03.png)
+
+5. หน้าต่าง Repository Browser เปิดขึ้นมา เลือก Branch ที่ต้องการจากเพนฝั่งซ้ายมือ เสร็จคลิกปุ่ม OK
+
+    ![](images/chapter7/branching_merge_branch_03_1.png)
+
+6. เลือกตัวเลือก all revisions แล้วคลิกปุ่ม Next
+
+    ![](images/chapter7/branching_merge_branch_04.png)
+
+7. คลิกปุ่ม Next
+
+    ![](images/chapter7/branching_merge_branch_05.png)
+
+8. หากไม่มีโค้ด conflict หรือชนกัน คลิกปุ่ม OK (แต่หากโค้ดมีการชนกันอ่านวิธีแก้ในบทต่อไป) 
+
+    ![](images/chapter7/branching_merge_branch_06.png)
+
+9. คลิกขวาบน Working copy เลือก SVN Commit...
+
+    ![](images/chapter7/branching_merge_branch_07.png)
+
+10. ป้อน comment แล้วคลิกปุ่ม OK
+
+    ![](images/chapter7/branching_merge_branch_08.png)
+
+11. คลิกปุ่ม OK เป็นอันเรียบร้อย
+
+    ![](images/chapter7/branching_merge_branch_09.png)
