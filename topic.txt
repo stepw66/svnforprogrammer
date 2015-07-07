@@ -4,7 +4,9 @@ Free book : [http://svnbook.red-bean.com/en/1.6/svn.preface.audience.html](http:
 
 
 - การแก้ไข conflic
-- ไอคอนทั้งหมด และความหมาย ##
+- ไอคอนทั้งหมด และความหมาย
+- การ export repository
+- การ import repository
 
 
 Preface

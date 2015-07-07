@@ -28,27 +28,27 @@ Tag คือที่เก็บโค้ด release จะว่าไปแ�
 
 2. คลิกขวาบนเมนู Repositories เลือก Create New Repository...
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-01.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_01.png)
 
 3. คลิก Next
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-02.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_02.png)
 
 4. ตั้งชื่อ Repository ในที่นี้ตั้งชื่อว่า garagmanagement จากนั้น คลิก Next
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-03.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_03.png)
 
 5. ให้เลือกตัวเลือก Single-project repository (with the top-level 'trunk', 'branches', and 'tags' folders) เสร็จแล้วคลิกปุ่ม Next 
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-04.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_04.png)
 
 6. เลือกตัวเลือก All Subversion users have Read/Write access เสร็จแล้วคลิกปุ่ม Create 
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-05.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_05.png)
 
 7. คลิกปุ่ม Finish 
 
-    ![](images/chapter7/visualsvn-create-project-with-structure-06.png)
+    ![](images/chapter7/visualsvn_create_project_with_structure_06.png)
 
 เมื่อดู Repository ที่เพิ่งสร้าง จะเห็นโฟลเดอร์อยู่ 3 โฟลเดอร์คือ 
 
@@ -56,7 +56,7 @@ trunk : ไว้เก็บโค้ดที่พร้อมเอาขึ
 branches : ไว้เก็บโค้ดที่แตกสาขาการพัฒนาออกไป
 tags : ไว้เก็บโค้ด tags (จะอธิบายความหมายของ tags ในบทต่อไป)
 
-![](images/chapter7/visualsvn-create-project-with-structure-07.png)
+![](images/chapter7/visualsvn_create_project_with_structure_07.png)
 
 
 ## การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (Repository เปล่า)##
@@ -67,11 +67,11 @@ tags : ไว้เก็บโค้ด tags (จะอธิบายควา
 
 1. คลิกขวาบนโฟลเดอร์โปรเจ็กที่ Checkout จาก Repository มาที่เครื่อง เลือก TortoiseSVN \> Branch/Tag...
 
-    ![](images/chapter7/branching-01.png)
+    ![](images/chapter7/branching_01.png)
 
 2. ในช่อง To path ป้อน /trunk เพื่อแตก Branch trunk ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create trunk เสร็จแล้วคลิกปุ่ม OK
 
-    ![](images/chapter7/branching-02.png)
+    ![](images/chapter7/branching_02.png)
 
     ถ้าท่านเปิดเข้าไปดูในโฟลเดอร์ที่ท่าน Checkout มา ท่านจะไม่เห็นโฟลเดอร์ trunk อยู่ในนั้นเพราะมันถูกสร้างบนส่วนเซิฟเวอร์ 
 
@@ -79,21 +79,21 @@ tags : ไว้เก็บโค้ด tags (จะอธิบายควา
 
 1. ต่อไปเราจะสร้าง Branch branches เพื่อเก็บ branch ย่อยไว้ภายใน คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
 
-    ![](images/chapter7/branching-01.png) 
+    ![](images/chapter7/branching_01.png) 
 
 2. ในช่อง To path ป้อน /branches เพื่อแตก Branch branches ให้เป็น Branch container เก็บ Branch ย่อยอีกที ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branches เสร็จแล้วคลิกปุ่ม OK
 
-    ![](images/chapter7/branching-04.png)
+    ![](images/chapter7/branching_04.png)
 
 ### แตก Branch branch ###
 
 1. ต่อไปเราจะสร้าง Branch ที่ใช้สำหรับทำงานซึ่งเก็บอยู่ใน branches อีกที คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
 
-    ![](images/chapter7/branching-01.png) 
+    ![](images/chapter7/branching_01.png) 
 
 2. ในช่อง To path ป้อน /branches/feature1 เพื่อแตก Branch ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branche เสร็จแล้วคลิกปุ่ม OK
 
-    ![](images/chapter7/branching-05.png)
+    ![](images/chapter7/branching_05.png)
 
 ### แตก Branch tags ###
 1. การสร้าง Tags ก็เหมือนกับการแตก branches ธรรมดา
@@ -294,3 +294,10 @@ Switch working copy to new branch/tag : สลับ Working copy ให้ไ�
 11. คลิกปุ่ม OK เป็นอันเรียบร้อย
 
     ![](images/chapter7/branching_merge_branch_09.png)
+
+## การแก้ไขชื่อ Branch ##
+
+ไม่สามารถทำได้
+
+## การลบ Branch ##
+
