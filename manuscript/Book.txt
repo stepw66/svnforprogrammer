@@ -2,6 +2,7 @@
 - บทที่ 2 VisualSVN Server 3.2
 - บทที่ 3 Repository
 - บทที่ 4 Advanced VisualSVN Server Manager (ยังไม่ได้เขียน)
-- บทที่ 5 Tortoise SVN
+- บทที่ 5 การใช้งาน Tortoise SVN
 - บทที่ 6 การใช้งาน TortoiseSVN เพิ่มเติม
 - บทที่ 7 การแตก Branch และการ Merge โค้ด
+-
