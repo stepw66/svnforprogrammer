@@ -2,11 +2,18 @@
 - 
     SVN คืออะไร
     ภาพรวม SVN
-    ตัวอย่างการวาง Infrastructure
+    การวาง Infrastructure
     ทำความเข้าใจกันก่อน
     System Requirement
 
-- บทที่ 2 VisualSVN Server 3.2
+- บทที่ 2 Versioning models
+- 
+    ปัญหาการแชร์ไฟล์ 
+    The Lock-Modify-Unlock Solution 
+    The Copy-Modify-Merge Solution 
+    สรุป
+
+- บทที่ 3 VisualSVN Server 3.2
 - 
     VisualSVN Server 3.2
     การติดตั้ง
@@ -24,7 +31,7 @@
 -ชื่อบท น่าจะแบ่งออกเป็น server part, client part
 -ยังไม่ได้เขียนคำนำบท
 
-- บทที่ 3 Repository
+- บทที่ 4 Repository
 - 
     Repository คืออะไร 
     สร้าง Repository
@@ -33,12 +40,6 @@
     เปลี่ยนแปลงสิทธิ์ในการเข้าใช้งาน Repository
     ลบ Repository
     เปลี่ยนชื่อ Repository
-
-*** ยังไม่ได้เขียนคำนำบท
-
-- บทที่ 4 Advanced VisualSVN Server Manager 
-- 
-*** ยังไม่ได้เขียน
 
 - บทที่ 5 การใช้งาน Tortoise SVN
 - 
@@ -60,8 +61,8 @@
     ยกเลิก Ignore file
     ดูความเปลี่ยนแปลงของโค้ด
     ตรวจดูใครแก้ไขโค้ดบรรทัดไหนไป
-    Get lock 
-    Release lock
+    การขอ lock ไฟล์ 
+    การปลด lock ไฟล์ 
     Create patch  ***
     Apply patch  ***
     Resolve Conflict  ***
@@ -97,19 +98,4 @@
         วิธีที่ 1
         วิธีที่ 2
 
-- Versioning models
-- 
-    ปัญหาการแชร์ไฟล์ 
-    The Lock-Modify-Unlock Solution 
-    The Copy-Modify-Merge Solution 
-    สรุป
-
-*** สรุปยังไม่สวย ตรวจให้ละเอียดใหม่อีกที
-
-- Unknow 
-- 
-    การยกเลิกการแก้ไขไฟล์ 
-    การขอ lock ไฟล์ 
-    การปลด lock ไฟล์ 
-    การตรวจดูว่าใครแก้ไขโค้ด 
-
+ 
