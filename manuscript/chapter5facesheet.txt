@@ -1,0 +1,13 @@
+# Tortoise SVN #
+
+การใช้งาน SVN นั้นส่วนที่เราเข้าไปข้องเกี่ยวมากที่สุดคือส่วน SVN Client ซึ่งเราจะใช้โปรแกรมที่ชื่อว่า TortoiseSVN เป็นเครื่องมือช่วย TortoiseSVN จะทำงานประสานกับ VisualSVN Server โดย TortoiseSVN ส่งโค้ดพร้อมคำอธิบายโค้ดไปให้ VisualSVN Server, VisualSVN Server จะเก็บโค้ดนั้นๆไว้ให้ เมื่อ User ต้องการทราบว่าใครเป็นคนแก้โค้ดบรรทัดนั้นๆไป ก็สั่งให้ Tortoise SVN ไปขอข้อมูลมาจาก VisualSVN Server มาดู
+
+จะให้พูดสรุปง่ายๆก็ได้ว่า VisualSVN Server เป็นตัวเก็บข้อมูล ส่วน Tortoise SVN นั้นเป็นตัวรวบรวมข้อมูลแล้วส่งไปให้ VisualSVN หรือในบางครั้งที่ User ต้องการทราบข้อมูลบางอย่าง ก็สั่งผ่าน Totoise SVN, Tortoise SVN ก็จะไปขอข้อมูลที่เก็บไว้มาจาก VisualSVN
+
+สิ่งที่จะได้เรียนรู้จากบทนี้ :
+
+- โปรแกรม TortoiseSVN คืออะไร
+- การติดตั้ง TortoiseSVN
+- การใช้งาน TortoiseSVN เบื้องต้น
+- การสร้าง Working copy
+- การส่งโค้ดที่เขียนไปเก็บที่ Repository
