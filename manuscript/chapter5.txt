@@ -1,358 +1,351 @@
-## การแตก Branch และประโยชน์ ##
+## TortoiseSVN คืออะไร ##
 
-การแตก Branch ทำเพื่อไม่ให้โค้ดที่ทีมหนึ่งกำลังแก้ไขอยู่ ไปกระทบกับโค้ดที่อีกทีมหนึ่งทำ หรือแตกออกไปเพื่อไม่ให้โค้ดที่กำลังแก้ไขกระทบกับโค้ดหลัก
+## ติดตั้ง TortoiseSVN ##
 
-การแตก Branch นั้นก็เหมือนกันกับก้อปปี้โค้ดจากต้นฉบับไปใส่ไว้ในอีกโฟลเดอร์ แล้วแก้โค้ดกันในโฟลเดอร์นั้น เมื่อแก้เสร็จค่อยรวมโค้ดเข้ามาที่โค้ดหลักอีกที โดยตัว SVN จะเป็นตัวคอยควบคุมการทำงานอยู่เบื้องหลัง มันรู้ของมันเองว่าจะรวมโค้ดกันยังไง แตก Branch ออกไปตั้งแต่ตอนไหน ใครเป็นคนเขียนโค้ดบรรทัดไหน เป็นต้น
+1. เปิดเบราเซอร์ขึ้นมาแล้วไปที่ http://tortoisesvn.net/downloads.html 
 
-ผมอยากให้ดูภาพนี้
+2. คลิกเลือกว่าจะดาวน์โหลดเวอร์ชั่นไหนไปใช้ ขึ้นอยู่กับระบบปฎิบัติการของคุณว่าเป็นกี่บิต
 
-![](images/chapter5/branching.jpg)
+    ![](images/chapter5/tortoisesvn_install_01.png)
 
-เป็นภาพแนวทางการแตก Branch 
+3. ตัว TortoiseSVN นั้นถูกเก็บไว้ที่ Sourceforge รอสักครู่จะมีหน้าต่างดาวน์โหลดขึ้นมา
 
-Trunk คือที่เก็บโค้ดที่รันได้ ไม่มีบัก หรือหากจะมีก็มีน้อย หรือจะเรียกว่าที่เก็บโค้ดที่พร้อมเอาขึ้น production หรือพร้อมส่งลุกค้าก็ได้  เขาจะไม่ Dev กันใน Trunk (มันก็คือ Branch หนึ่งนั่นแหละ)
+    ![](images/chapter5/tortoisesvn_install_02.png)
 
-หากเรามีทีม 2 ทีม ที่วางแผนกันแล้วว่าจะแยกกันพัฒนาคนละฟีเจอร์ แล้วค่อยเอามารวมกันทีหลัง ก็แตก Branch ออกมา 2 Branch คือ Branch 1 และ Branch 2
+4. บันทึกไฟล์เก็บไว้ที่ไหนสักแห่ง ที่จะเรียกใช้งานได้ง่ายๆ 
 
-Branch คือที่เก็บโค้ดที่ก้อปปี้มาจาก Trunk
+    ![](images/chapter5/tortoisesvn_install_03.png)
 
-หลังจากทีม Dev เขียนโค้ดจนครบฟีเจอร์ที่ต้องการ และทดสอบอย่างดีแล้ว ก็เอาโค้ดมารวมเข้าไปยัง Trunk (จากนั้นอาจจะลบ Branch 1 ทิ้งไปเลย แล้วค่อยแตกใหม่มาจาก Trunk อีก)
+5. ดับเบิลคลิกไฟล์ TortoiseSVN ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง
 
-เมื่อใดก็ตามที่เอาโค้ดขึ้นโปรดักษ์ชั่น หรือส่งโปรแกรมให้ลูกค้า หรือปล่อยโปรแกรมออกสู่สาธารณ เขาจะทำการ Tag เวอชั่นไว้ เป็นการทำ release
+    ![](images/chapter5/tortoisesvn_install_04.png)
 
-Tag คือที่เก็บโค้ด release จะว่าไปแล้วมันก็เป็น Branch Branch หนึ่งที่จะสร้างตอน release และไม่มีใครไป Dev ใน Tag
+6. เข้าสู่กระบวนการติดตั้ง คลิก Next 
 
-## การแตก Branch ตั้งแต่สร้าง Repository ##
+    ![](images/chapter5/tortoisesvn_install_05.png)
 
-1. เปิดโปรแกรม visualSVN ขึ้นมา
+7. คลิกเลือก I accept the term in the License Agreement ยอมรับเงื่อนไขการใช้งาน จากนั้นคลิกปุ่ม Next
 
-2. คลิกขวาบนเมนู Repositories เลือก Create New Repository...
+    ![](images/chapter5/tortoisesvn_install_06.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_01.png)
+8. ไม่ต้องเปลี่ยนแปลงค่าอะไร ปล่อยไปตาม Default คลิกปุ่ม Next 
 
-3. คลิก Next
+    ![](images/chapter5/tortoisesvn_install_07.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_02.png)
+9. คลิก Next 
 
-4. ตั้งชื่อ Repository ในที่นี้ตั้งชื่อว่า garagmanagement จากนั้น คลิก Next
+    ![](images/chapter5/tortoisesvn_install_08.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_03.png)
+10. โปรแกรม TortoiseSVN กำลังติดตั้ง ช่วงนี้ทำได้แค่รอ
 
-5. ให้เลือกตัวเลือก Single-project repository (with the top-level 'trunk', 'branches', and 'tags' folders) เสร็จแล้วคลิกปุ่ม Next 
+    ![](images/chapter5/tortoisesvn_install_09.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_04.png)
+11. หลังจากรอได้สักครู่ โปรแกรมก็ทำการติดตั้งเสร็จเรียบร้อย ให้คลิกปุ่ม Finish เสร็จสิ้นการติดตั้ง
 
-6. เลือกตัวเลือก All Subversion users have Read/Write access เสร็จแล้วคลิกปุ่ม Create 
+    ![](images/chapter5/tortoisesvn_install_10.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_05.png)
+12. ลองเปิด Explorer ขึ้นมาไปยังโฟลเดอร์ไหนก็ได้ คลิกขวาดู จะเห็นว่ามีเมนูในกลุ่ม SVN เพิ่มขึ้นมา  เอาละครับมาถึงจุดนี้เป็นจุดที่ท่านต้องทราบว่า โปรแกรม TortoiseSVN นั้นไม่เหมือนกับโปรแกรมที่เราลงใช้งานทั่วๆไป ตัวมันเองจะไปฝังเข้ากับ Context Menu เวลาจะใช้งานก็เรียกผ่านทางคลิกขวา ในบทต่อๆไปท่านจะได้เรียนรู้วิธีการใช้งาน และจะรู้สึกคุ้นเคยกับมันมากขึ้น 
 
-7. คลิกปุ่ม Finish 
+    ![](images/chapter5/tortoisesvn_install_11.png)
 
-    ![](images/chapter5/visualsvn_create_project_with_structure_06.png)
+## Checkout Code ##
 
-เมื่อดู Repository ที่เพิ่งสร้าง จะเห็นโฟลเดอร์อยู่ 3 โฟลเดอร์คือ 
+**เช็กเอ้าท์** โค้ด คือกระบวนการที่เราไปดึงเอาโค้ดที่เก็บไว้ที่ VisualSVN Server ลงมาที่เครื่องของเราเพื่อทำการแก้ไข และเป็นการสร้างความสัมพันธ์ระหว่าง SVN Server กับ SVN Client เข้าด้วยกัน
 
-trunk : ไว้เก็บโค้ดที่พร้อมเอาขึ้น production
-branches : ไว้เก็บโค้ดที่แตกสาขาการพัฒนาออกไป
-tags : ไว้เก็บโค้ด tags (จะอธิบายความหมายของ tags ในบทต่อไป)
+1. ให้เปิด VisualSVN Server Manager ขึ้นมาแล้วสร้างโปรเจ็กชื่อ schoolmanagement ขึ้นมา (ผมสมมติเอาว่าท่านกำลังสร้างโปรเจ็กนี้อยู่) วิธีการสร้างอ่านได้จาก  บทที่ 3 จากนั้นคลิกขวาที่โปรเจ็ก schoolmanagement เลือก Copy URL to Clipboard
 
-![](images/chapter5/visualsvn_create_project_with_structure_07.png)
+    ![](images/chapter5/tortoisesvn_checking_out_01.png)
 
+2. เปิด Explorer ขึ้นมา เข้าไปยัง C:\xampp\htdocs\schoolmanagement (หากโฟลเดอร์ schoolmanagement ไม่มีก็สร้างขึ้นมานะครับ ) สำหรับคนที่ไม่ได้ใช้ xampp เป็นตัวพัฒนา PHP ก็ลองเทียบเคียงเอาดูนะครับ  เมื่อเข้าไปในโฟลเดอร์แล้ว ให้คลิกขวา เลือก SVN Checkout...
 
-## การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (Repository เปล่า)##
+    ![](images/chapter5/tortoisesvn_checking_out_02.png)
 
-ผมจะจินตนาการว่าท่านได้ Checkout โค้ดลงมาที่เครื่องท่านแล้ว 
+3. ในช่อง URL of repository วาง URL ที่เราก้อปปี้มาจาก VisualSVN Server ในช่อง checkout directory เป็นพาธโฟลเดอร์สำหรับเก็บภาพ แต่ปกติแล้วช่องทั้งสองนี้จะถูกป้อนค่าอัตโนมัติอยู่แล้ว  ส่วนตัวเลือกอื่นๆไม่ต้องเปลี่ยนแปลงอะไร คลิกปุ่ม OK
 
-### แตก Branch trunk ###
+    ![](images/chapter5/tortoisesvn_checking_out_03.png)
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็กที่ Checkout จาก Repository มาที่เครื่อง เลือก TortoiseSVN \> Branch/Tag...
+4. รอสักครู่กระบวนการ checking out จะเสร็จเรียบร้อย ให้คลิกปุ่ม OK
 
-    ![](images/chapter5/branching_01.png)
+    ![](images/chapter5/tortoisesvn_checking_out_04.png)
 
-2. ในช่อง To path ป้อน /trunk เพื่อแตก Branch trunk ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create trunk เสร็จแล้วคลิกปุ่ม OK
+5. ทีนี้ลองเปิด Explorer ไปที่ C:\xampp\htdocs ดูจะเห็นว่าโฟลเดอร์ schoolmanagement จะมีเครื่องหมายถูกสีเขียวแปะอยู่บนไอคอนโฟลเดอร์ เป็นความหมายว่า โฟลเดอร์นี้โค้ดข้างในใหม่สด  มันจะมีไอคอนอีกหลายแบบ จะเอามาแสดงให้ดูและอธิบายในบทต่อไป
 
-    ![](images/chapter5/branching_02.png)
+    ![](images/chapter5/tortoisesvn_checking_out_05.png)
 
-    ถ้าท่านเปิดเข้าไปดูในโฟลเดอร์ที่ท่าน Checkout มา ท่านจะไม่เห็นโฟลเดอร์ trunk อยู่ในนั้นเพราะมันถูกสร้างบนส่วนเซิฟเวอร์ 
+6. ลองดับเบิลคลิกเข้าไปยังโฟลเดอร์ schoolmanagement จะเห็นว่าเป็นเพียงโฟลเดอร์เปล่าๆ นั่นเป็นเพราะว่า repository ที่เก็บอยู่บน VisualSVN Server ที่เราเช็กเอ้าท์ลงมา มันยังไม่มีอะไรเก็บไว้ 
 
-### แตก Branch branches ###
+    ![](images/chapter5/tortoisesvn_checking_out_06.png)
 
-1. ต่อไปเราจะสร้าง Branch branches เพื่อเก็บ branch ย่อยไว้ภายใน คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
+7. แต่ถ้าหากลองสั่งให้วินโดวมันแสดงทุกอย่างในโฟลเดอร์ schoolmanagement ออกมา
 
-    ![](images/chapter5/branching_01.png) 
+    ![](images/chapter5/tortoisesvn_checking_out_07.png)
 
-2. ในช่อง To path ป้อน /branches เพื่อแตก Branch branches ให้เป็น Branch container เก็บ Branch ย่อยอีกที ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branches เสร็จแล้วคลิกปุ่ม OK
+8. จะเห็นว่ามีโฟลเดอร์ .svn อยู่ข้างใน โฟลเดอร์นี้เป็นโฟลเดอร์สำคัญ ห้ามลบ เป็นโฟลเดอร์เก็บรายละเอียดต่างๆของ SVN
 
-    ![](images/chapter5/branching_04.png)
+    ![](images/chapter5/tortoisesvn_checking_out_08.png)
 
-### แตก Branch branch ###
+## Commit ไฟล์ ##
 
-1. ต่อไปเราจะสร้าง Branch ที่ใช้สำหรับทำงานซึ่งเก็บอยู่ใน branches อีกที คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก  TortoiseSVN \> Branch/Tag...
+การ Commit คือการบันทึกความเปลี่ยนแปลงของไฟล์เก็บไว้ที่ VisualSVN Server ตัว TortoiseSVN มันจะเป็นตัวรวบรวมความเปลี่ยนแปลงต่างๆเอง โค้ดบรรทัดไหนถูกแก้ไข โค้ดบรรทัดไหนถูกลบออกไป หรือมีไฟล์ไหนเพิ่มเข้ามา มีไฟล์ไหนลบออกไป เราเพียงแค่สั่งและเขียนข้อความเตือนความจำ
 
-    ![](images/chapter5/branching_01.png) 
+ผมอยากจะให้ท่านให้ความสำคัญกับข้อความเตือนความจำ ให้มาก เพราะว่าเมื่ออยากจะกลับไปดูว่าตอนนั้นๆเราทำอะไรกับโค้ดไป เราจะได้หาไม่ยาก และอ่านข้อความแล้วเข้าใจสิ่งที่ทำลงไปโดยคร่าวๆ 
 
-2. ในช่อง To path ป้อน /branches/feature1 เพื่อแตก Branch ส่วนในช่อง Log message ให้ป้อนหมายเหตุว่าทำอะไร ในที่นี้ป้อนว่า Create branche เสร็จแล้วคลิกปุ่ม OK
+1. เพิ่มไฟล์เข้าไปในโฟลเดอร์ C:\xampp\htdocs\schoolmanagement สักไฟล์พร้อมเขียนโค้ดอะไรก็ได้เพื่อเป็นการทดสอบ
 
-    ![](images/chapter5/branching_05.png)
+2. คลิกขวาบนพื้นที่ว่างๆ จากนั้นคลิก SVN Commit...
 
-### แตก Branch tags ###
-1. การสร้าง Tags ก็เหมือนกับการแตก branches ธรรมดา
+    ![](images/chapter5/tortoisesvn_commit_01.png)
 
-### แตก Branch tag ###
-1. การสร้าง Tag ก็เหมือนกับการแตก branche ธรรมดา
+3. ในช่อง Changes made เลือกไฟล์ที่เพิ่งเพิ่มเข้าไปเมื่อกี้ มันอาจจะแสดงไฟล์ที่ไม่ต้องการขึ้นมาด้วยเช่นไฟล์ระบบของวินโดว Desktop.ini ไม่ต้องสนใจ จากนั้นในช่อง Message ให้พิมพ์ข้อความเตือนความจำว่าเราทำอะไรลงไปกับโค้ด เสร็จแล้วคลิกปุ่ม OK
 
-โครงสร้างในการบริหารโปรเจ็กหรือทำงานภายในทีม จริงๆไม่จำเป็นต้องเป็น trunk, branches, tags  ก็ได้ จะตั้งชื่อเป็นอะไรก็ได้ จะแตกยังไงก็ได้ แต่มันไม่เป็นสากล เวลาคนอื่นเข้ามาร่วมแจมทีม เขาจะงง หรือหากเราไปแจมบริษัทอื่นที่เขาใช้ SVN เราก็อาจจะงง เพราะเราไม่เหมือนชาวบ้าน 
+    ![](images/chapter5/tortoisesvn_commit_02.png)
 
-ฉะนั้นทางที่ดี เขานิยมทำกันแบบไหนก็ทำตามแบบนั้นแหละ ดีที่สุด
+4.  ข้อสังเกตอย่างหนึ่งคือหมายเลข revision สังเกตในหน้าจอนะครับ หมายเลข revision นี้จะขยับขึ้นไปเรื่อยๆ เพื่อเป็นการบอกว่าเราได้ทำอะไรกับโค้ดมากแค่ไหน ถ้าเลขมันเยอะมากก็ไม่ต้องตกใจ ปล่อยมันไป 
+    
+    ทีนี้ให้ลองนึกควานหาโปรแกรมที่ท่านเคยไปดาวน์โหลดจากอินเตอร์เน็ตมา บางโปรแกรมมันมีระบุไว้ด้วยว่า โปรแกรมเวอร์ชั่นเท่าไร revision เท่าไร มันมีที่มาจาก SVN นี่เอง 
 
-## การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (commit โค้ดไปแล้วด้วย)##
+    ![](images/chapter5/tortoisesvn_commit_03.png)
 
-ถึงแม้ว่าเราจะไม่ได้แตก Branch ไว้ตั้งแต่ทีแรก นั่นไม่่ใช่ปัญหา เราสามารถแตก Branch ภายหลังได้ ให้ผลไม่ต่างกันกับแตก Branch ตั้งแต่ต้น
+5. ลองดูไอค่อนเล็กที่แปะไว้บนไฟล์ จะกลายไปเป็นเครื่องหมายถูกสีเขียว เป็นเครื่องหมายบอกว่า ไฟล์นี้ได้รับการบันทึกการเปลี่ยนแปลงไว้แล้วที่ VisualSVN Server
 
-ผมจะจินตนาการว่าท่านได้ Checkout โค้ดลงมาที่เครื่องท่านแล้ว และ มีการ commit โค้ดเข้า Repository ไปแล้วด้วย 
+    ![](images/chapter5/tortoisesvn_commit_04.png)
 
-### แตก Branch trunk ###
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+## อัปเดต working copy ##
 
-    ![](images/chapter5/create_trunk_01.png)
+Working copy ก็คือโฟลเดอร์โปรเจ็กในเครื่องของเราที่เรา checkout โค้ดมาจาก SVN Server บางคนเรียก Local copy ก็มี
 
-2. ในช่อง To path ป้อน /trunk ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป จากนั้นคลิกปุ่ม OK
+ในกรณีที่เราทำงานร่วมโปรเจ็กเดียวกันหลายคน เราจะรู้ได้ไงว่าคนอื่นเขา commit โค้ดขึ้นไป SVN Server บ้างหรือยัง คำตอบคือไม่รู้ และจริงๆไม่จำเป็นต้องรู้ เราแค่ทำการอัปเดตบ่อยๆ เดี๋ยวโค้ดใน working copy เราก็ถูกอัปเดตเอง
 
-    ![](images/chapter5/create_trunk_02.png)
+1. คลิกขวาบนพื้นที่ว่างๆ คลิก SVN Update
 
-3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+    ![](images/chapter5/tortoisesvn_update_01.png)
 
-    ![](images/chapter5/create_trunk_03.png)
+2. ถ้ามีการอัปเดต มันจะแจ้งมาว่ามันอัปเดตไฟล์ไหนบ้างในบรรทัด  Updated และ หมายเลข revision จะเปลี่ยนไป คลิกปุ่ม OK ปิดไดอะลอก
 
-### แตก Branch branches ###
+    ![](images/chapter5/tortoisesvn_update_02.png)
 
-เราสามารถแตก Branch สำหรับเป็น container เก็บ Branch ย่อยภายในได้ด้วย ซึ่งจะทำให้การจัดระเบียบโปรเจ็ก ดีขึ้น
+    ถ้าหากไม่มีการเปลี่ยนแปลงใดๆ ข้อความในไดอะลอก ก็จะไม่มีบรรทัด Updated
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+    ![](images/chapter5/tortoisesvn_update_03.png)
 
-    ![](images/chapter5/create_branches_01.png)
 
-2. ในช่อง To path ป้อน /branches ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป จากนั้นคลิกปุ่ม OK
+## ยกเลิกการเปลี่ยนแปลง ##
 
-    ![](images/chapter5/create_branches_02.png)
+นี่เป็นหนึ่งในข้อดีของการนำเอา SVN มาช่วยบริหารงาน คือ เราไม่จำเป็นจะต้องจำว่าเราได้แก้ไขไฟล์ไหนไปบ้าง แก้อะไรไปบ้าง ไม่จำเป็น เราสามารถเล่นกับโค้ดยังไงก็ได้ เมื่อทดสอบจนพอใจแล้ว เราก็แค่ Revert มันซะ การเปลี่ยนแปลงทั้งหมดจะถูกยกเลิก
 
-3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+1. ทดลองแก้ไขโค้ดในไฟล์ จากนั้นคลิกขวาที่ว่างๆ เลือก TortoiseSVN \> Revert...
 
-    ![](images/chapter5/create_branches_03.png)
+    ![](images/chapter5/tortoisesvn_revert_01.png) 
 
-### แตก Branch branch ###
+2. ติ๊กเลือกไฟล์ที่ต้องการยกเลิกการเปลี่ยนแปลง จากนั้นคลิก OK
 
-เราจะแตก Branch branch ให้เป็น Branch ย่อยภายใน branches เพื่อจัดระเบียบ 
+    ![](images/chapter5/tortoisesvn_revert_02.png) 
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+3. คลิกปุ่ม OK เป็นอันเรียบร้อย ลองกลับไปดูโค้ดสิ
 
-    ![](images/chapter5/create_branch_01.png)
+    ![](images/chapter5/tortoisesvn_revert_03.png) 
 
-2. ในช่อง To path ป้อน /branch ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create branch จากนั้นคลิกปุ่ม OK
 
-    ![](images/chapter5/create_branch_02.png)
+## วิธีจำลองการทำงาน คนๆเดียว ให้เหมือนหลายคน เพื่อศึกษา SVN ##
 
-3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+ถ้าเราเป็นคนๆเดียวที่กำลังศึกษาวิธีการใช้งาน SVN เราคงหาเครื่องมาต่อแลนเข้าด้วยกัน แล้วสมมติเป็นการทำงานร่วมกันหลายคน ลำบากหน่อย เพราะคนๆเดียว ก็คงมีเครื่องๆเดียว  ให้ท่านทำอย่างนี้ครับ checkout โค้ดให้ไปอยู่ที่ต่างๆกัน คือแค่เปลี่ยนชื่อโฟลเดอร์ มันก็กลายเป็น 2 แล้ว แล้วลองแก้ไขไฟล์ commit จาก 2 ที่ดู มันก็จะเหมือนกับคนสองคนทำงานร่วมกันแล้ว พอกล้อมแกล้มสำหรับศึกษาได้ครับ
 
-    ![](images/chapter5/create_branch_03.png)
 
-### แตก Branch tags ###
+## แบบฝึกหัด ##
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+1. ลบโฟลเดอร์ C:\xampp\htdocs\schoolmanagement ทิ้งแล้ว check out มาใหม่ สังเกตดูว่าได้อะไรกลับมา
+2. สร้าง Repository ใหม่ชื่อ schoolstock จากนั้น checkout แล้วส่งไฟล์ excel, word, jpg ไปเก็บครั้งละประเภท
 
-    ![](images/chapter5/create_tags_01.png)
 
-2. ในช่อง To path ป้อน /tags ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create tags container จากนั้นคลิกปุ่ม OK
 
-    ![](images/chapter5/create_tags_02.png)
 
-3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+## นำไฟล์เข้า Repository ##
+ในกรณีที่เรามีไฟล์เก็บอยู่นอกโปรเจ็กจำนวนมาก และต้องการนำมันมาอยู่ในโปรเจ็ก เช่นไฟล์ภาพเป็นต้น เราสามารถทำได้ด้วยกระบวนการสั้นๆ ที่เรียกว่า Import จริงๆแล้วเราจะก้อปปี้มันมาใส่ไว้ในโฟลเดอร์โปรเจ็กแล้วค่อย commit เข้า Repository ก็ให้ผลเหมือนกัน 
 
-    ![](images/chapter5/create_tags_03.png)
+จริงๆแล้วหัวข้อนี้ ผมต้องการนำเสนอเพื่อคลายข้อสงสัยต่อคำว่า Import (ปกติผมจะเอาไฟล์เข้า Repository โดยการก้อปปปี้ใส่ไว้ในโฟลเดอร์๋โปรเจ็ก แล้ว commit เอา)
 
-### แตก Branch tag ###
+1. คลิกขวาบนโฟลเดอร์ที่ต้องการเอาไฟล์ภายในเข้า Repository เลือก TortoiseSVN \> Import...
 
-1. คลิกขวาบนโฟลเดอร์โปรเจ็ก เลือก TortoiseSNV \> Branch/Tag...
+    ![](images/chapter5/tortoisesvn_import_01.png)
 
-    ![](images/chapter5/create_tag_01.png)
+2. หน้าต่าง Import จะแสดงขึ้นมา ในช่องพาธเราสามารถพิมพ์พาธเข้าไปได้ TortoiseSVN จะสร้างโฟลเดอร์ให้อัตโนมัติหากโฟลเดอร์นั้นๆไม่มีอยู่จริง เสร็จแล้วคลิกปุ่ม OK
 
-2. ในช่อง To path ป้อน /tag ส่วนในช่อง Log message ป้อนบันทึกช่วยจำว่าเราทำอะไรลงไป ในที่นี่พิมพ์ Create tags container จากนั้นคลิกปุ่ม OK
+    ![](images/chapter5/tortoisesvn_import_02.png)
 
-    ![](images/chapter5/create_tag_02.png)
+3. รอสักครู่ไฟล์จะถูก Import เข้าไปใน Repository เรียบร้อย พร้อม +1 หมายเลข Revision
 
-3. หน้าต่าง Copy Finished! ปรากฎขึ้นมา แสดงว่าการแตก Branch สำเร็จเรียบร้อย คลิกปุ่ม OK ปิดหน้าต่างไป
+    ![](images/chapter5/tortoisesvn_import_03.png)
 
-    ![](images/chapter5/create_tag_03.png)
+4. ลองเปิดเข้าไปดูในโฟลเดอร์โปรเจ็ก จะเห็นว่ายังไม่มีรายการไฟล์ที่เรา Import เข้าไปเมื่อครู่ ไม่แปลก เราต้องทำการอัปเดต Working Folder เสียก่อน
 
-## รายละเอียดหน้าต่างแตก Branch ##
+    ![](images/chapter5/tortoisesvn_import_04.png)
 
-![](images/chapter5/branching_create_branch_detail.png)
+5. คลิกขวาที่ว่างๆในโฟลเดอร์โปรเจ็ก เลือก SVN Update...
 
-From WC/URL : เป็นตัวบอกว่าปัจจุบันเราทำงานอยู่ที่ Branch ไหน
-To path: ป้อนชื่อ Branch ที่เราต้องการสร้าง
-Destination URL : URL ของ Branch ที่เราสร้าง ซึ่ง หากเราเปิด URL นั้นเราสามารถดูโค้ดผ่านหน้าเว็บได้
-Log message : ป้อน comment เตือนความจว่าทำอะไรลงไป
-Recent messages : คลิกเพื่อเลือก message ที่เคยป้อนไว้และ TortoiseSVN เก็บไว้
-Create copy in the repository from  : ตัวเลือกว่าเราจะสร้าง Branch ใหม่โดยอ้างอิง revision ไหน
+    ![](images/chapter5/tortoisesvn_import_05.png)
 
-    HEAD revision in the repository  :  สร้าง Branch ใหม่จาก revision ล่าสุดใน Repository
-    Specific revision in repository : คลิกปุ่ม Show Log เพื่อเลือก revision
-    Working copy : สร้าง Branch ใหม่โดยอ้างอิงจาก revision ล่าสุดใน Working copy
+6. เมื่อกระบวนการอัปเดตเสร็จสิ้น เราจะเห็นไฟล์ใหม่ที่ Import เข้าไปใน Repository คลิกปุ่ม OK
 
-Create intermediate folders : ให้สร้าง branch containner ให้อัตโนมัติ กรณีเราระบุสร้าง Branch ในช่อง To path เป็นแบบ Branch ย่อย เช่น /tags/version-1.1   
-Switch working copy to new branch/tag : สลับ Working copy ให้ไปใช้ Branch ที่เพิ่งสร้างขึ้นมาใหม่ทันที 
+    ![](images/chapter5/tortoisesvn_import_06.png)
 
-## การตรวจสอบปัจจุบันเราอยู่ Branch ไหน ##
 
-การตรวจสอบว่า working copy ในเครื่องเรานั้น ปัจจุบันอยู่ที่ Branch ไหนสามารถเช็กได้ 2 วิธี
+## export ไฟล์เพื่อนำไปใช้งาน ##
 
-### วิธีที่ 1 ###
+ในโฟลเดอร์ Working Copy ที่เราทำงานอยู่นั้น มันจะมีโฟลเดอร์ของ SVN ซ่อนอยู่ด้วยทำให้บางทีเวลาเราต้องการก้อปปี้ไฟล์ทั้งหมดไปใช้งาน มันจะติดไปด้วย การ export จึงเป็นทางเลือกที่ดีกว่า มันจะไม่เอาไฟล์ SVN ติดมาด้วย 
 
-1. คลิกขวาบน working copy เลือก Properties
+สังเกตุดูนะครับมีโฟลเดอร์ .svn อยู่ด้วยเป็นสีจางๆ เพราะมันซ่อนอยู่ ถ้าลองเปิดเข้าไปดูภายในโฟลเดอร์จะเห็นไฟล์ประหลาดมากมาย ไม่ต้องสนใจ TortoiseSVN เท่านั้นที่เข้าใจไฟล์เหล่านั้น 
 
-    ![](images/chapter5/branching_check_current_branch_01.png)
+![](images/chapter5/tortoisesvn_export_01.png)
 
-2. หน้าต่าง Properties ถูกเปิดขึ้นมา คลิกไปที่แท็บ Subversion ดูตรง URL เราก็จะรู้ว่าเราอยู่ Branch ไหน
+1. คลิกขวาที่ว่างๆใน Working Copy เลือก Export...
 
-    ![](images/chapter5/branching_check_current_branch_01.png)
+    ![](images/chapter5/tortoisesvn_export_02.png)
 
-### วิธีที่ 2 ###
+2. หน้าต่างระบุตำแหน่งที่จะให้เก็บไฟล์ที่จะ Export แสดงขึ้นมา ระบุตำแหน่งที่สะดวกตามความต้องการ จากนั้นคลิกปุ่ม Select Folder
 
-1. คลิกขวาบน working copy เลือก TortoiseSVN \> Branch/Tag...
+    ![](images/chapter5/tortoisesvn_export_03.png)
 
-    ![](images/chapter5/branching_check_current_branch_03.png)
- 
-2. ดูตรง From WC/URL เราก็จะรู้ว่าเราอยู่ Branch ไหน
+3. การ Export จะเร็วหรือช้าขึ้นอยู่กับปริมาณไฟล์ทั้งหมด หลังจาก Export เสร็จแล้วให้ลองเปิดเข้าไปดูในไฟลเดอร์ที่ระบุให้เก็บไฟล์ไว้ จะเห็นไฟล์ใน Working Copy ทั้งหมด ยกเว้นไฟล์ของ SVN
 
-    ![](images/chapter5/branching_check_current_branch_04.png)
+    ![](images/chapter5/tortoisesvn_export_04.png)
 
-## การสลับ Branch ##
 
-1. คลิกขวาบน Working copy เลือก TortoiseSVN \> Switch...
+## export เฉพาะไฟล์ที่แก้ไข ##
 
-    ![](images/chapter5/branching_switch_branch_01.png)
+ในบางครั้งเราไม่ได้ต้องการ export ไฟล์ทั้งหมดออกจาก repository เราต้องการเพียงแค่เฉพาะไฟล์ที่ถูกแก้ไขหรือเพิ่มเข้าไปจากช่วง revision นี้ถึง revision นี้ 
 
-2. ป้อนชื่อ Branch ที่ต้องการในช่อง To path เสร็จแล้วคลิกปุ่ม OK
+1. เข้าไปยัง Working Copy คลิกขวาที่ว่างๆ เลือก TortoiseSVN \> Show log
 
-    ![](images/chapter5/branching_switch_branch_02.png)
+    ![](images/chapter5/tortoisesvn_export_revision_01.png)
 
-    หรือคลิกปุ่ม ... ที่อยู่ด้านหลังช่อง To path
- 
-    ![](images/chapter5/branching_switch_branch_02_1.png)
+2. หน้าต่าง Log Messages เปิดขึ้นมา ให้คลิกเลือก revision ตั้งต้น และ revision สิ้นสุดที่ต้องการ export ไฟล์ (กดปุ่ม ctrl ไว้นะ) จากนั้นคลิกขวาบนหมายเลข revision ที่เลือกไว้ เลือก Compare revisions 
 
-    เลือก Branch ตรงเพนด้านซ้ายมือ (เราจะเห็นว่าแท้จริงแล้ว Branch นั้นมันถูกเก็บเป็นโฟลเดอร์) เสร็จแล้วคลิกปุ่ม OK
+    ![](images/chapter5/tortoisesvn_export_revision_02.png)
 
-    ![](images/chapter5/branching_switch_branch_02_2.png)
+3. หน้าต่าง Changed files แสดงขึ้นมา ให้เลือกรายชื่อไฟล์ทั้งหมดที่ปรากฎ (ctrl+A ไปเลยไม่ต้องสนใจ) จากนั้นคลิกขวา เลือก Export selection to...
 
-    คลิกปุ่ม OK อีกครั้ง
+    ![](images/chapter5/tortoisesvn_export_revision_03.png)
 
-    ![](images/chapter5/branching_switch_branch_02_3.png)
+4. เลือกโฟลเดอร์สำหรับเก็บไฟล์ที่ export 
 
-## การรวม Branch ##
+    ![](images/chapter5/tortoisesvn_export_revision_04.png)
 
-สมมติว่าเราพัฒนาโค้ดเรียบร้อยแล้ว และต้องการเอามันส่งลูกค้าหรือเอาขึ้นโปรดักษ์ชั่น แล้ว เราจะทำการรวม branch เข้าสู่ trunk ซึ่งขั้นตอนให้ทำดังนี้
+5. หลังจากกระบวนการ export เสร็จเรียบร้อย ลองเปิดเข้าไปดูในโฟลเดอร์ที่เก็บไฟล์ จะเห็นว่าไฟล์
 
-1. สลับ Branch ไปอยู่ Branch trunk (ให้ใช้ความคิดว่า เอามารวม ไม่ใช่เอาไปรวม)
+    ![](images/chapter5/tortoisesvn_export_revision_05.png)
 
-2. คลิกขวาบน Working copy เลือก TortoiseSVN \> Merge...
 
-    ![](images/chapter5/branching_merge_branch_01.png)
+## Ignore ไฟล์หรือโฟลเดอร์ ##
 
-3. เลือก Merge a range of revisions จากนั้นคลิก Next
+ต้องเข้าใจอย่างหนึ่งว่า ไฟล์อะไรก็ตามที่เราทำการ commit เข้า Repository คนอื่นก็จะได้รับการอัปเดตไฟล์นั้นๆไปด้วย ซึ่งในบางครั้งไฟล์ที่เรา commit ไป มันไปตีกับของเดิมของเขา หรือไม่อย่างนั้น ไฟล์นั้นๆก็ไม่ได้จำเป็นที่จะต้องมีใน Repository อย่างเช่น ไฟล์คอนฟิกของอิดีเตอร์ที่ใช้ ถ้าใครเคยใช้ phpstorm จะเห็นชัดเจนว่า phpstorm จะสร้างไฟล์ชื่อ .idea ขึ้นมาในโฟลเดอร์ที่มันทำงาน ไฟล์แบบนี้คนอื่นไม่จำเป็นจะต้องรับทราบว่ามีตัวตน หรือบางทีไฟล์คอนฟิกของโปรแกรมที่เรากำลังเขียนอยู่นี่แหละ เราต้องการป้องกันไม่ให้ใครไปแก้มัน แล้ว commit เข้า Repository 
 
-    ![](images/chapter5/branching_merge_branch_02.png)
+เราสามารถสั่งข้ามไม่ให้ TortoiseSVN สนใจแม้ไฟล์นั้นๆจะถูกแก้ไข
 
-4. คลิกปุ่ม ... หลังช่อง URL
+1. คลิกขวาบนไฟล์ที่ต้องการไม่ให้ TortoiseSVN สนใจ เลือก TortoiseSVN \> Add to ignore list เลือกตัวเลือกใดตัวเลือกหนึ่งในรายการระหว่างระบุชื่อไฟล์ไฟล์เดียว หรือ ระบุเป็นทุกๆไฟล์ที่มีนามสกุลเหมือนกับไฟล์ที่เลือก ส่วนตัวเลือกที่มี recursive พ่วงท้าย หมายถึงให้ TortoiseSVN ไล่หาทั้ง Working Copy ดูว่ามีไฟล์แบบเดียวกันอยู่อีกหรือไม่
 
-    ![](images/chapter5/branching_merge_branch_03.png)
+    ![](images/chapter5/tortoisesvn_ignorefile_01.png)
 
-5. หน้าต่าง Repository Browser เปิดขึ้นมา เลือก Branch ที่ต้องการจากเพนฝั่งซ้ายมือ เสร็จคลิกปุ่ม OK
+2. เมื่อไฟล์ถูกใส่เข้าไปใน Ignore list แล้ว สังเกตว่าตัวไอคอนของไฟล์จะมีเครื่องหมายลบสีเทาๆแปะไว้ให้ทราบด้วยว่าไฟล์นี้ถูก Ignore เสร็จแล้วคลิกปุ่ม OK เป็นอันเรียบร้อย 
 
-    ![](images/chapter5/branching_merge_branch_03_1.png)
+    ![](images/chapter5/tortoisesvn_ignorefile_02.png)
 
-6. เลือกตัวเลือก all revisions แล้วคลิกปุ่ม Next
 
-    ![](images/chapter5/branching_merge_branch_04.png)
+## ยกเลิก Ignore ไฟล์หรือโฟลเดอร์ ##
 
-7. คลิกปุ่ม Next
+หลังจากที่เราสั่ง Ignore ไฟล์ใดไฟล์หนึ่งหรือโฟลเดอร์ใดๆไปแล้ว เราสามารถยกเลิกได้ โดย
 
-    ![](images/chapter5/branching_merge_branch_05.png)
+1. คลิกขวาบนไฟล์ที่ถูก Ignore ไว้ เลือก TortoiseSVN \> Remove from ignore list
 
-8. หากไม่มีโค้ด conflict หรือชนกัน คลิกปุ่ม OK (แต่หากโค้ดมีการชนกันอ่านวิธีแก้ในบทต่อไป) 
+    ![](images/chapter5/tortoisesvn_unignore_01.png)
 
-    ![](images/chapter5/branching_merge_branch_06.png)
+2. สังเกตดูจากไอคอนเล็กๆที่ติดอยู่ที่ไอคอนไฟล์ จากเมื่อก่อนมันเป็นเครื่องหมายลบสีเทาๆ กลับกลายมาเป็นเครื่องหมาย คำถามสีน้ำเงิน นั่นเป็นเครื่องหมายว่าไฟล์นี้พร้อมถูก Commit เพื่อแชร์ความเปลี่ยนแปลงของตัวเองไปให้โปรแกรมเมอร์คนอื่นได้ทราบ คลิกปุ่ม OK
 
-9. คลิกขวาบน Working copy เลือก SVN Commit...
+    ![](images/chapter5/tortoisesvn_unignore_02.png)
 
-    ![](images/chapter5/branching_merge_branch_07.png)
 
-10. ป้อน comment แล้วคลิกปุ่ม OK
+## ดูความเปลี่ยนแปลงของโค้ด ##
 
-    ![](images/chapter5/branching_merge_branch_08.png)
+มีบางครั้งที่เราอยากจะรู้ว่าที่ผ่านมา เราได้ทำอะไรลงไปกับไฟล์นั้นๆบ้าง เขียนโค้ดอะไรลงไปบ้าง 
 
-11. คลิกปุ่ม OK เป็นอันเรียบร้อย
+1. คลิกขวาบนไฟล์ที่ต้องการดูความเปลี่ยนแปลง เลือก TortoiseSVN \> Diff with previous version 
 
-    ![](images/chapter5/branching_merge_branch_09.png)
+    ![](images/chapter5/tortoisesvn_diff_01.png)
 
-## การแก้ไขชื่อ Branch ##
+2. หน้าต่างเปรียบเทียบการเปลี่ยนแปลงแสดงขึ้นมา ในหน้าต่าง Working Copy คือโค้ดปัจจุบัน ส่วนอีกฝั่งหนึ่งคือโค้ดใน revision นั้นๆ ที่เอามาเปรียบ วิธีการอ่านง่ายๆเป็นดังนี้ ดูตรงไอค่อนเล็กๆหน้าบรรทัด มันจะเป็นเครื่องหมายลบเครื่องหมายบวกอยู่ ให้อ่านจากหน้าต่างซ้ายมาหน้าต่างขวา ถ้าอย่างในตัวอย่างจะอ่านได้ว่า ลบ 3 บรรทัด ทิ้ง เพิ่มบรรทัด phpinfo() เข้ามา
 
-1. คลิกขวาบน Working copy เลือก TortoiseSVN \> Repo-browser
+    ![](images/chapter5/tortoisesvn_diff_02.png)
 
-    ![](images/chapter5/branching_rename_branch_01.png)
+ยังมีวิธีดูความเปลี่ยนแปลงโค้ดอีกวิธีหนึ่ง ให้ทำดังนี้ 
 
-2. คลิกขวาบนชื่อ Branch ที่ต้องการแก้ไข เลือก Rename
+1. คลิกขวาเลือก TortoiseSVN \> Show log
 
-    ![](images/chapter5/branching_rename_branch_02.png)
+    ![](images/chapter5/tortoisesvn_diff_03.png)
 
-3. ป้อนชื่อ Branch ที่ต้องการ เสร็จแล้วกดปุ่ม Enter
+2. หน้าต่าง Log Messages แสดงขึ้นมา คลิกเลือก revision อย่างน้อย 2 revision เพื่อทำการเปรียบเทียบ จากนั้นคลิกขวา เลือก Compare revisions
 
-    ![](images/chapter5/branching_rename_branch_03.png)
+    ![](images/chapter5/tortoisesvn_diff_04.png)
 
-4. จะมีหน้าต่างแสดงขึ้นมาให้ป้อน Comment ป้อนบันทึกว่าทำอะไรลงไป เสร็จแล้วคลิกปุ่ม OK
+3. หน้าต่างที่แสดงอยู่คือหน้าต่างที่แสดงให้เราได้เห็นว่าโค้ดมีอะไรเปลี่ยนแปลงไปบ้าง 
 
-    ![](images/chapter5/branching_rename_branch_04.png)
+    ![](images/chapter5/tortoisesvn_diff_05.png)
 
-5. คลิกปุ่ม OK ปิดหน้าต่างออกไป
 
-    ![](images/chapter5/branching_rename_branch_05.png)
+## ตรวจดูใครแก้ไขโค้ดบรรทัดไหนไป ##
 
-## การลบ Branch ##
+ฟีเจอร์นี้ค่อนข้างจะมีประโยชน์มาก ลดการถกเถียงกันว่าใครเป็นคนแก้โค้ดตรงส่วนนั้นส่วนนี้ทำให้เกิดบั๊ก ประโยชน์อีกอย่างหนึ่งก็คือ ในยามที่เรามานั่งดูโค้ดแล้วสงสัยว่าโค้ดนั้นๆเขียนขึ้นมาเพื่ออะไร หรือทำไมต้องเขียนอย่างนั้น เราก็แค่ดูว่าใครเป็นคนเขียน สามารถถามเจ้าตัวโดยตรงเพื่อรับคำอธิบาย 
 
-การลบ Branch สามารถทำได้ 2 วิธี
+1. คลิกขวาบนไฟล์ที่ต้องการดู เลือก TortoiseSVN \> Blame...  
 
-### วิธีที่ 1 ###
+    ![](images/chapter5/tortoisesvn_blame_01.png)
 
-1. เปิด VisualSVN Server ขึ้นมา
+2. ระบุ revision เริ่มต้นและสิ้นสุด แต่ปกติแล้วดีฟอลต์จะให้มาที่ revision ที่ 1 และ revision ปัจจุบัน ส่วนตัวเลือกอื่นๆไม่จำเป็นต้องเปลี่ยนแปลงอะไร หรือหากต้องการทราบว่าจะเกิดอะไร ก็สามารถลองเลือกลองเล่นได้  จากนั้นคลิกปุ่ม OK
 
-2. คลิกเลือก Branch ที่ต้องการลบ แล้วคลิกปุ่ม Delete หรือคลิกขวาบน Branch ที่ต้องการลบ เลือก Delete
+    ![](images/chapter5/tortoisesvn_blame_02.png)
 
-    ![](images/chapter5/branching_delete_branch_01.png)
+3. หน้าต่าง TortoiseBlame ถูกเปิดขึ้นมาและแสดงให้เห็นว่าแต่ละบรรทัดใครเป็นคนแก้ ไปเมื่อ revision ที่เท่าไร หากเอาเมาส์ชี้ที่หมายเลข revision รายละเอียดจะถูกแสดงขึ้นมาให้เห็นว่าโค้ดบรรทัดนั้นๆ แก้ไปเพราะอะไร และเมื่อไร โน๊ตทีเห็นคือคอมเม้นท์ที่เราเขียนไว้ตอน commit โค้ด 
 
-3. หน้าต่างยืนยันแสดงขึ้นมา คลิกปุ่ม OK
+    ![](images/chapter5/tortoisesvn_blame_03.png)
 
-    ![](images/chapter5/branching_delete_branch_02.png)
 
-### วิธีที่ 2 ###
+## การขอ lock ไฟล์ ##
 
-1. คลิกขวาบน Working copy เลือก TortoiseSVN \> Repo-browser
+ฟังก์ชั่นตัวนี้หากคลิกขวาที่ไฟล์ใดๆแล้วเลือก TortoiseSVN \> Get lock... ก็จะเห็น มันเป็นฟังก์ชั่นที่ใช้สำหรับล้อกไฟล์ห้ามใครแก้ไขจนกว่าเราจะ commit ไฟล์นี้เสร็จ หรือจนกว่าเราจะยกเลิกการล้อก 
 
-    ![](images/chapter5/branching_delete_branch_03.png)
+![](images/chapter5/tortoisesvn_getlock_01.png)
 
-2. คลิกขวาบน Branch ที่ต้องการลบ เลือก Delete...
+หน้าต่างสำหรับป้อนข้อความให้แสดงเมื่อมีคนอื่นจะแก้ไขไฟล์ ป้อนข้อความให้คนอื่นอ่านแล้วเข้าใจว่าทำไมต้องล้อกไฟล์ จากนั้นคลิก OK
+![](images/chapter5/tortoisesvn_getlock_02.png)
 
-    ![](images/chapter5/branching_delete_branch_04.png)
+แต่อย่างไรก็ตาม เพื่อเป็นการป้องกันกรณีที่มีคนล้อกไฟล์ไว้แล้วลืม แล้วเจ้าตัวก็ดันไม่อยู่ TortoiseSVN อนุญาติให้มีการ Steal lock ได้ คือยึดสิทธิ์การล้อกไฟล์มาเป็นของตัวเอง
 
-3. ป้อน Log message เสร็จแล้วคลิกปุ่ม OK
+คลิกขวาที่ไฟล์เลือก TortoiseSVN \> Get lock
 
-    ![](images/chapter5/branching_delete_branch_05.png)
+![](images/chapter5/tortoisesvn_getlock_03.png)
 
-4. หลังลบ Branch ไปแล้ว ชื่อ Branch ยังแสดงอยู่ (ไม่แน่ใจว่าเป็นบักของโปรแกรมหรือเปล่า) ไม่ต้องสนใจ ให้คลิกปุ่ม OK ปิดหน้าต่าง Repo-browser ออกไป
+ในหน้าต่าง Get lock ให้ติ๊กเครื่องหมายถูกหน้า Steal lock
 
-    ![](images/chapter5/branching_delete_branch_06.png)
+![](images/chapter5/tortoisesvn_getlock_04.png)
 
-5. ให้เปิด Repo-browser เข้ามาใหม่ จะเห็นว่า Branch ที่ถูกลบจะหายไปแล้ว
 
-    ![](images/chapter5/branching_delete_branch_07.png)
+## การปลด lock ไฟล์ ##
 
-*** การลบ Branch ควรกระทำอย่างรอบคอบ
+โดยปกติการล้อกไฟล์จะถูกยกเลิกอัตโนมัติเมื่อเราทำการ commit ไฟล์ไปครั้งหนึ่ง แต่หากไม่มีการ commit แล้วต้องการยกเลิกการล้อกไฟล์ สามารถทำได้โดย
+
+1. คลิกขวาบนไฟล์ที่ถูกล้อก เลือก TortoiseSVN \> Release lock...
+
+    ![](images/chapter5/tortoisesvn_releaselock_01.png)
+
+2. เลือกไฟล์ที่ต้องการปลดล้อก ซึ่งปกติมันก็เลือกถูกต้องอยู่แล้ว คลิกปุ่ม OK
+
+    ![](images/chapter5/tortoisesvn_releaselock_02.png)
+
+3. การปลดล้อกเสร็จเรียบร้อย คลิกปุ่ม OK
+
+    ![](images/chapter5/tortoisesvn_releaselock_03.png)
+
+## Create patch ##
+
+## Apply patch ##
+
+## Resolve Conflict ##

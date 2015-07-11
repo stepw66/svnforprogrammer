@@ -1,158 +1,194 @@
-## Repository คืออะไร ##
+## การติดตั้ง ##
 
-ถ้าจะว่าไปแล้ว Repository ก็คือโปรเจ็กนั่นแหละ แต่ทำไมฝรั่งจึงเรียกว่า Repository แทนที่จะเรียกว่าโปรเจ็ก อันนี้ไม่แน่ใจเหมือนกัน แต่เขาคงมีเหตุผลของเขา เอาเป็นว่าสรุปง่ายๆละกันว่า Repository ก็คือโปรเจ็ก ที่ไว้สำหรับเก็บโค้ดหรือ Resource ที่ส่งมาจาก Client ให้หลับตาแล้วนึกภาพง่ายๆว่า ที่ VisualSVN Server นี้เก็บ Repository ไว้เพียบ จากนั้นโปรแกรมเมอร์ท่านไหน ต้องการพัฒนาโปรแกรมอะไร ก็เชื่อมต่อเข้ามาก้อปปี้โค้ดจาก Repository ลงไปยังเครื่องของตัวเอง (จะมีโปรแกรมชื่อ TortoiseSVN เป็นตัวช่วย) จากนั้นก็เขียนโค้ดๆๆๆๆ ทดสอบๆๆๆๆ จนเห็นว่ามันสำเร็จระดับหนึ่งแล้ว ก็ส่งโค้ดเข้ามาเก็บไว้ที่ Repository ถ้าหาก Repository นั้นๆเชื่อมต่อร่วมกันหลายคน มันก็กลายเป็นการพัฒนาโปรแกรมร่วมกัน แชร์โค้ดกัน นี่แหละประโยชน์ของ SVN 
+1. เข้าไปยังเว็บไซต์ [https://www.visualsvn.com/](https://www.visualsvn.com/ "VisualSVN Server 3.2") 
 
+2. คลิกปุ่มดาวน์โหลดตรง VISUALSVNSERVER 
+    ![](images/chapter3/svnserver_install_01.png) 
 
-## สร้าง Repository ##
+3. คลิกเลือกดาวน์โหลดโปรแกรมเวอร์ชั่น 32 bit/64 bit ตามวินโดวที่ติดตั้งไว้ในเครื่อง อย่างของผมผมเลือกดาวน์โหลด 64 bit เพราะวินโดวผมเป็น 64 bit
+    ![](images/chapter3/svnserver_install_02.png) 
 
-1. เปิด VisualSVN Server Manager ขึ้นมา
+4. มีหน้าต่างขึ้นมาให้บันทึกไฟล์ที่ดาวน์โหลด กดปุ่ม Save File เลือกบันทึกไว้ที่สะดวกเรียกใช้งานสักที่ 
+    ![](images/chapter3/svnserver_install_03.png) 
 
-2. คลิกขวาบน Repositories เลือก Create New Repository...
+5. ดับเบิลคลิกไฟล์ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง หากมีหน้าต่าง Security Warning ขึ้นมาถามหาเรื่องความปลอดภัย ให้คลิกปุ่ม Run 
+    
+    ![](images/chapter3/svnserver_install_04.png) 
 
-    ![](images/chapter3/repository_create_01.png) 
+6. มาถึงตรงนี้เราก็เริ่มเข้าสู่กระบวนการการติดตั้งโปรแกรมอย่างแท้จริง ให้คลิกปุ่ม Next เดินหน้าต่อไป 
+    
+    ![](images/chapter3/svnserver_install_05.png) 
 
-3. เลือกประเภทการจัดเก็บ Repository ซึ่งมีอยู่ 2 แบบ 
-	- คือ regular FSFS อันนี้มันจะสร้าง Repository เดี่ยวๆโดยรูปแบบไฟล์ที่จัดเก็บนั้นเป็นแบบ FSFS (ไม่รู้ว่าเราจะรู้ลึกๆไปทำไม เหมือนกัน) หากเราใช้ VisualSVN Server เวอร์ชั่นฟรี เราจะเลือกได้เฉพาะตัวเลือกนี้ 
-	- คือ Distributed VDFS อันนี้มันจะยอมให้เราทำ Replicate repository ได้ ตัวเลือกนี้จะเลือกได้ก็ต่อเมื่อใช้ VisualSVN Server เวอร์ชั่นเสียตังส์
+7. ติ๊กเลือก I accept the term in the License Agreement เพื่อยอมรับเงื่อนไขการใช้งานที่เขาแจ้งมา จากนั้นคลิกปุ่ม Next 
+    
+    ![](images/chapter3/svnserver_install_06.png) 
 
-    ![](images/chapter3/repository_create_02.png) 
-	 
-	ติ๊กเลือก regular FSFS จากนั้นคลิก Next
+8. ใช้ตัวเลือก default ที่เขาเลือกมาให้แล้วโดยไม่ต้องเปลี่ยนแปลงอะไร จากนั้นคลิกปุ่ม Next ในหน้าจอนี้หากจะเปลี่ยนแปลงตัวเลือก ก็มีเพียงกรณีเดียวคือ ท่านติดตั้ง VisualSVN Server ไว้ที่เครื่องอื่นในเน็ตเวิร์คแล้ว และต้องการ remote เข้าใช้งานจากเครื่องของเราเอง
+    
+    ![](images/chapter3/svnserver_install_07.png)
 
-4. ตั้งชื่อ Repository ซึ่งควรตั้งเป็นชื่อเดียวกับโปรแกรมที่เรากำลังจะพัฒนาและส่งโค้ดมาเก็บที่ Repository นี้ จากนั้นคลิก Next
+9. คลิกปุ่ม Standard Edition   
+    
+    ![](images/chapter3/svnserver_install_08.png)
 
-    ![](images/chapter3/repository_create_03.png) 
+10. คลิกปุ่ม Next โดยไม่ต้องเปลี่ยนแปลงอะไร  
+    
+    ![](images/chapter3/svnserver_install_09.png)
 
-5. เลือกโครงสร้าง Repository ซึ่งตอนนี้แนะนำให้เลือก Empty repository ไปก่อน เพราะอีกตัวเลือกหนึ่งนั้นจำเป็นจะต้องไปเข้าใจหลักการการแตก branch การบริหารโปรเจ็กด้วย branch เสียก่อน ซึ่งจะได้เรียนรู้ในบทต่อๆไป จากนั้นคลิก Next
+11. คลิกปุ่ม Next 
+    
+    ![](images/chapter3/svnserver_install_10.png)
 
-    ![](images/chapter3/repository_create_04.png) 
+12. รอ
+    
+    ![](images/chapter3/svnserver_install_11.png)
 
-6. Repository Access Permissions กำหนดสิทธิ์การเข้าใช้งาน Repository นี้ โดยมีอยู่ 3 ตัวเลือก
-    - Nobody has access  ไม่อนุญาติให้ใครเข้าใช้งาน (อาจไว้สำหรับทำแบ้กอัพ)
-    - All subversion users have Read/Write access อนุญาติให้ทุกคนที่มีชื่อในระบบสามารถอ่านและเขียนไฟล์ใน Repository นี้ได้ สามารถที่จะ Clone และ Commit โค้ดเข้ามายัง Repository นี้ได้ (จะได้เรียนรู้วิธีในบทต่อๆไป)
-    - Customize Permissions ให้เรากำหนดเอาเองว่าใคร หรือกลุ่มไหน สามารถเข้าถึงและแก้ไขไฟล์ใน Repository นี้ได้ 
+13. คลิกปุ่ม Finish เสร็จสิ้นการติดตั้งโปรแกรม VisualSVN Server
+    
+    ![](images/chapter3/svnserver_install_12.png)
 
-    ลองคลิกปุ่ม Custom... 
-
-    ![](images/chapter3/repository_create_05.png) 
-
-    หน้าต่าง Customize Permissions สำหรับกำหนดสิทธิ์จะถูกเปิดขึ้นมา จากนั้นลองคลิกปุ่ม Add... ดู
-
-    ![](images/chapter3/repository_create_06.png) 
-
-    หน้าต่าง Choose User or Group แสดงขึ้นมา เราสามารถเลือกให้สิทธิ์เป็นรายบุคคลหรือเป็นกลุ่มก็ได้ จากนั้นคลิกปุ่ม OK
-
-    ![](images/chapter3/repository_create_07.png) 
-
-    คลิกปุ่ม OK อีกครั้ง
-
-    ![](images/chapter3/repository_create_08.png) 
-
-7. คลิกปุ่ม Create
-
-    ![](images/chapter3/repository_create_09.png) 
-
-8. เมื่อมาถึงหน้านี้ จะแสดงข้อมูลสรุปว่า จัดเก็บข้อมูลประเภทไหน ชื่อ Repository อะไร ลิ้งก์สำหรับเปิดดูไฟล์ใน Repository ด้วยเบราเซอร์ และใครมีสิทธิ์เข้าใช้งาน Repository นี้  คลิกปุ่ม Finish เสร็จสิ้นการสร้าง Repository
-
-    ![](images/chapter3/repository_create_10.png) 
+หลังจากนี้จะเข้าสู่กระบวนการตั้งค่า และใช้งานต่อไป
 
 
-## เพิ่ม User เข้าใช้งาน Repository ##
+## สำรวจ VisualSVN Server ##
+ลองเปิดโปรแกรม VisualSVN Server Manager ขึ้นมาดูครับ เพื่อทำการสำรวจกันสักหน่อย 
 
-อันที่จริงตอนเราสร้าง Repository มันมีขั้นตอนให้กำหนดอยู่แล้วว่าจะให้ใครเข้าใช้ Repository นั้นๆได้บ้าง แต่อย่างว่าทุกอย่างมันมีการเปลี่ยนแปลงได้เสมอ การเพิ่ม User/Group เข้าใช้งาน Repository ก็เช่นกัน ทำได้ดังนี้
+หน้าตาเบื้องต้น จะมีประมาณนี้ คือหลักๆแล้วตัว SVN Server ไม่ได้ทำหน้าที่อะไรมากไปกว่าควบคุมผู้ใช้งาน กับคอยเก็บข้อมูลที่ส่งมาจาก Client เพราะฉะนั้นเราจึงเห็นว่า ทำไมหน้าตามันเหมือนจะซับซ้อนน้อยเสียเหลือเกิน ซึ่งอันที่จริง มันก็ดีแล้ว
 
-1. เปิด VisualSVN Server Manager ขึ้นมา
+![](images/chapter3/svnserver_manager_01.png)
 
-2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
+ลองคลิกที่เมนู File จะเห็นว่ามีเมนูย่อยแค่ 2 ตัว คือ Options.. กับ Exit  และถ้าหากคลิกที่เมนู Options นะ มันก็ไม่มีอะไรเลย แค่ให้เคลียร์ข้อมูลที่เป็นขยะ 
 
-    ![](images/chapter3/repository_add_user_01.png) 
+![](images/chapter3/svnserver_manager_02.png)
 
-3. หน้าต่าง Properties for ถูกเปิดขึ้นมา คลิกปุ่ม Add
+เมนู Action นั้นมันจะเปลี่ยนแปลงไปตามหัวข้อที่เราเลือก อย่างถ้าหากเราเลือกโฟกัสอยู่ที่ VisualSVN Server(Local) จะแสดงแค่ Help
 
-    ![](images/chapter3/repository_add_user_02.png) 
+![](images/chapter3/svnserver_manager_03.png)
 
-4. คลิกเลือก User หรือ Group ที่ต้องการ เสร็จแล้วคลิกปุ่ม OK
+แต่ถ้าหากเราคลิกโฟกัสอยู่ที่ Repositories เมนูย่อยของเมนู Action ก็จะเป็นอีกแบบ คำสั่งจะเป็นคำสั่งที่ใช้จัดการกับ Repository โดยเฉพาะ
 
-    ![](images/chapter3/repository_add_user_03.png) 
+![](images/chapter3/svnserver_manager_04.png)
 
-5. จะเห็นว่ามี User หรือ Group ที่เราเพิ่มเข้ามาแล้ว คลิกปุ่ม OK อีกครั้งปิดหน้าต่างออกไป
+ถ้าคลิกโฟกัสอยู่ที่ User แล้วคลิกเมนู Action เมนูย่อยก็จะเป็นดังภาพ
 
-    ![](images/chapter3/repository_add_user_04.png) 
+![](images/chapter3/svnserver_manager_05.png)
+
+ถ้าคลิกโฟกัสอยู่ที่ Group แล้วคลิกเมนู Action เมนูย่อยก็จะเป็นดังภาพ
+
+![](images/chapter3/svnserver_manager_06.png)
+
+สำหรับการใช้งานแต่ละเมนู จะได้เรียนรู้ในหัวข้อต่อๆไป อย่างการเพิ่ม user, การสร้าง repository, การจัดกลุ่ม user เป็นต้น
 
 
-## ลบ User ออกจาก Repository ##
+## จัดการผู้ใช้งานระบบ ##
 
-พึงจำไว้ว่าการลบแบบนี้เป็นเพียงแค่ลบสิทธิ์เท่านั้น ไม่ได้ลบตัว User เองหรือลบ Group แต่อย่างใด
+สิ่งแรกเลยที่จะต้องทำหลังติดตั้ง VisualSVN Server เสร็จ คือ สร้าง User สำหรับใช้งาน SVN คนที่จะส่งโค้ดเข้ามาเก็บที่ VisualSVN Server ได้นั่นจะต้องมีชื่ออยู่ในระบบ ไม่ใช่ส่งโค้ดมาเก็บอย่างเดียว จะดู history จะอะไรก็แล้วแต่ ต้องมีชื่ออยู่ในระบบเสียก่อนเสมอ 
 
-1. เปิด VisualSVN Server Manager ขึ้นมา
 
-2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
-
-    ![](images/chapter3/repository_remove_user_01.png) 
-
-3. คลิกเลือก User หรือ Group ที่ต้องการลบออกจาก Repository เสร็จแล้วคลิกปุ่ม OK User หรือ Group นั้นๆ จะไม่สามารถเข้าใช้งาน Repository นี้ได้อีก
-
-    ![](images/chapter3/repository_remove_user_02.png) 
-
-4. คลิกปุ่ม OK เพื่อปิดหน้าต่าง เสร็จสิ้นการแก้ไข
-
-## เปลี่ยนแปลงสิทธิ์ในการเข้าใช้งาน Repository ##
+## การสร้างยูสเซอร์ใหม่  ##
 
 1. เปิด VisualSVN Server Manager ขึ้นมา
 
-2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Properties...
+2. คลิกขวาที่ User จากนั้นเลือก Create User... หรือจะเลือกไปที่ New \> User ก็ได้ ให้ผลลัพธ์เหมือนกัน 
+    ![](images/chapter3/user_create_01.png) 
 
-    ![](images/chapter3/repository_change_permission_01.png) 
+3. หน้าต่าง Create New User จะเปิดขึ้นมา ให้ป้อนรายละเอียดของ User ใหม่เข้าไป เสร็จแล้วคลิกปุ่ม OK 
 
-3. คลิกเลือก User หรือ Group ที่ต้องการเปลี่ยนแปลงสิทธิ์ จากนั้นคลิกเลือกสิทธิ์ที่ด้านล่าง ซึ่งมีตัวเลือกที่สามารถเลือกได้อยู่ 3 ตัวเลือก
+    Username : ชื่อล้อกอิน 
+    
+    Password : รหัสผ่าน 
+    
+    Confirm Password : ยืนยันรหัสผ่าน
+    
+    มีคำเตือนอยู่ด้านล่างนิดนึงบอกว่า ชื่อล้อกอินและรหัสผ่าน ตัวอักษรตัวเล็กและตัวใหญ่จะถูกมองว่าเป็นคนละตัวกัน
+    
+    ![](images/chapter3/user_create_02.png)
 
-    - No access ห้ามเข้าใช้งาน (ไม่รู้เหมือนกันว่าทำไมไม่ลบออกไปซะให้สิ้นเรื่องสิ้นราว)
-    - Read Only อ่านได้อย่างเดียว
-    - Read / Write ได้ทั้งอ่านทั้งเขียน  จะแก้ไขเปลี่ยนแปลงไฟล์ทำได้หมด
+4. หลังคลิกปุ่ม OK แล้วจะเห็นว่า User ใหม่ที่เราป้อนรายละเอียดไปเมื่อตะกี้ ได้ถูกสร้างขึ้นมาแล้ว  
 
-    ![](images/chapter3/repository_change_permission_02.png) 
-
-4. คลิกปุ่ม OK เพื่อปิดหน้าต่าง เสร็จสิ้นการแก้ไข
-
-
-## ลบ Repository ##
-
-การลบ Repository จะต้องกระทำด้วยความระมัดระวังเสมอ เพราะ Repository ที่ลบไปแล้วนั้นจะไม่สามารถกู้คืนกลับมาได้ ต่อให้มีโค้ดที่เป็น working copy ก็จริง แต่ history ที่เคยบันทึกไว้จะหายไปอย่างถาวร
-
-1. เปิด VisualSVN Server Manager ขึ้นมา
-
-2. คลิกตรง Repositories จะเห็น Repository ที่เราสร้างไว้ ให้คลิกขวาแล้วเลือก Delete
-
-    ![](images/chapter3/repository_delete_01.png) 
-
-3. จะมีหน้าต่างขึ้นมาถามว่า แน่ใจแล้วหรือที่จะลบ Repository นี้ หากยังยืนยันคำเดิมว่าจะลบทิ้ง คลิกปุ่ม Yes
-
-    ![](images/chapter3/repository_delete_02.png) 
-
-4. Repository จะถูกลบทิ้งอย่างถาวร
-
-    ![](images/chapter3/repository_delete_03.png) 
+    ![](images/chapter3/user_create_03.png)
 
 
-## เปลี่ยนชื่อ Repository##
-
-การเปลี่ยนชื่อ Repository นั้นจะต้องทำด้วยความระมัดระวัง เพราะว่าเมื่อเปลี่ยนชื่อแล้ว คนที่ใช้งาน Repository ด้วยชื่อเดิมจะไม่สามารถเข้าใช้งานได้ ท่านจะเห็นเหตุผลข้อนี้ได้ชัดเจนขึ้น เมื่อท่านเข้าสู่บทที่ว่าด้วยเรื่องการ Clonning Code
+## การลบยูสเซอร์ ##
 
 1. เปิด VisualSVN Server Manager ขึ้นมา
 
-2. คลิกตรง Repositories จากนั้นให้คลิกขวาบนชื่อ Repository ที่เราต้องการเปลี่ยนชื่อ แล้วเลือก Rename
+2. คลิกขวาที่ User ที่ต้องการลบทิ้ง เลือก Delete
 
-    ![](images/chapter3/repository_rename_01.png) 
+    ![](images/chapter3/user_delete_01.png)
 
-3. พิมพ์ชื่อ Repository ใหม่ตามที่ต้องการ เสร็จแล้วกดปุ่มคีย์บอร์ด Enter
 
-    ![](images/chapter3/repository_rename_02.png) 
+## การเปลี่ยนรหัสผ่านใหม่ให้ยูสเซอร์ ##
 
-4. จะมีหน้าต่างขึ้นมาเตือนว่า "หากคุณเปลี่ยนชื่อ คนที่เคยเข้าใช้งาน Repository นี้ได้ จะเข้าไม่ได้นะ ต้องการทำต่อไปใช่มั้ย" คลิกปุ่ม Yes
+1. เปิด VisualSVN Server Manager ขึ้นมา
 
-    ![](images/chapter3/repository_rename_03.png) 
+2. คลิกขวาที่ User ที่ต้องการกำหนดรหัสผ่านใหม่ เลือก Set Password...
 
-5. Repository ถูกเปลี่ยนเป็นชื่อใหม่เรียบร้อย
+    ![](images/chapter3/user_set_new_password_01.png)
 
-    ![](images/chapter3/repository_rename_04.png) 
+3. หน้าต่างกำหนดรหัสผ่านจะแสดงขึ้นมา ป้อนรหัสผ่านในช่อง New password และยืนยันรหัสผ่านในช่อง Confirm password จากนั้นคลิกปุ่ม OK ก็เป็นอันเรียบร้อย
+
+    ![](images/chapter3/user_set_new_password_02.png)
+
+
+## การจัดกลุ่ม User ##
+
+การจัดกลุ่ม User นั้นมีประโยชน์อยู่ 2 อย่าง
+
+1. เพื่อความเป็นระเบียบในเชิงบริหาร จะได้รู้ว่าใครอยู่กลุ่มไหน
+
+2. เพื่อความง่ายและสะดวกในการกำหนดสิทธิ์เข้าใช้งาน repository (บทต่อๆไปจะได้เรียนรู้เรื่อง repository) แทนที่จะกำหนดเป็นคนๆ กำหนดเป็นกลุ่มเลยทีเดียวก็สะดวกกว่า
+
+
+## สร้างกลุ่ม User ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกขวาที่ Group เลือก Create group... หรือจะเลือก New \> Group... ก็ได้
+
+    ![](images/chapter3/group_create_01.png) 
+
+3. หน้าต่าง Create New Group ถูกแสดงขึ้นมา ป้อนชื่อกลุ่มที่ต้องการเข้าไปในช่อง Group name: จากนั้นคลิกปุ่ม Add... เพื่อเพิ่ม User เข้ามาเป็นสมาชิกของกลุ่มนี้
+
+    ![](images/chapter3/group_create_02.png) 
+
+4.  หน้าต่าง Choose user or group จะแสดงขึ้นมา คลิกเลือก User ที่ต้องการจากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter3/group_create_03.png) 
+
+5. คลิกปุ่ม OK อีกครั้ง
+
+    ![](images/chapter3/group_create_04.png) 
+
+
+## การลบกลุ่ม ##
+
+การลบกลุ่มนั้น ไม่ต้องกังวลว่าสมาชิกที่อยู่ในกลุ่มจะถูกลบไปด้วย ไม่ต้องกลัว มันจะลบแค่กลุ่มเท่านั้น สมาชิกยังอยู่ครบเท่าเดิม
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกเลือก Group แล้วคลิกขวากลุ่มที่ต้องการลบออก เลือก Delete
+
+    ![](images/chapter3/group_delete_01.png) 
+
+3. มีหน้าต่างปอปอัพขึ้นมาถามว่า "แน่ใจแล้วนะที่จะลบกลุ่มๆนี้ออก" คลิกปุ่ม Yes เป็นอันเสร็จสิ้นเรื่องราว กลุ่มก็จะถูกลบออกไป
+
+    ![](images/chapter3/group_delete_02.png) 
+
+
+## การลบสมาชิกออกจากกลุ่ม ##
+
+1. เปิด VisualSVN Server Manager ขึ้นมา
+
+2. คลิกเลือก Group แล้วคลิกขวากลุ่มที่ต้องการลบออก เลือก Edit...
+
+    ![](images/chapter3/group_edit_01.png) 
+
+3. หน้าต่าง Edit Group แสดงขึ้นมา คลิกเลือก User ที่ต้องการลบออกจากกลุ่ม เสร็จแล้วคลิกปุ่ม Remove
+
+    ![](images/chapter3/group_edit_02.png) 
+
+4. จะเห็นว่า User ที่ต้องการถูกลบออกไปแล้ว คลิกปุ่ม OK อีกครั้งปิดหน้าต่างออกไป
+
+    ![](images/chapter3/group_edit_03.png) 
 

@@ -1,9 +1,11 @@
-# บทที่ 3.Repository #
+# บทที่ 3.VisualSVN Server 3.2 #
 
-ในระบบ SVN นั้นเขาเรียกโปรเจ็กแต่ละโปรเจ็กว่า Repository เมื่อได้ยินคำว่า Repository ให้เข้าใจว่ามันคือโปรเจ็ก
+VisualSVN Server เป็นส่วนสำคัญส่วนหนึ่งของระบบ SVN ทำหน้าที่เป็นส่วน Server เก็บทุกสิ่งทุกอย่างไว้ ไม่ว่าจะเป็น โปรเจ็ก ซึ่งถูกเรียกว่า Repository, Source Code, Member, Permission และ Save point
+
+เป็นคลังส่วนกลางที่รอให้ SVN Client มาขอข้อมูลหรือส่งข้อมูลมาจัดเก็บ
 
 สิ่งที่จะได้เรียนรู้จากบทนี้ :
 
-- Repository คืออะไร
-- การสร้าง, ลบ, แก้ไข Repository
-- การกำหนด User ผุ้มีสิทธิ์เข้าใช้งาน Repository
+- วิธีติดตั้ง VisualSVN
+- การสร้าง User และสิทธิ์ในการเข้าใช้งาน Repository
+- การจัดกลุ่ม User
