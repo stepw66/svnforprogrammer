@@ -1,101 +1,12 @@
-- บทที่ 1 SVN อะไรคือ
-- 
-    SVN คืออะไร
-    ภาพรวม SVN
-    การวาง Infrastructure
-    ทำความเข้าใจกันก่อน
-    System Requirement
-
-- บทที่ 2 Versioning models
-- 
-    ปัญหาการแชร์ไฟล์ 
-    The Lock-Modify-Unlock Solution 
-    The Copy-Modify-Merge Solution 
-    สรุป
-
-- บทที่ 3 VisualSVN Server 3.2
-- 
-    VisualSVN Server 3.2
-    การติดตั้ง
-    สำรวจ VisualSVN Server
-    จัดการผู้ใช้งานระบบ
-    การสร้างยูสเซอร์ใหม่
-    การลบยูสเซอร์
-    การเปลี่ยนรหัสผ่านใหม่ให้ยูสเซอรื
-    การจัดกลุ่ม User
-    สร้างกลุ่ม User
-    ลบกลุ่ม
-    การลบสมาชิกออกจากกลุ่ม
-
-*** จุดที่จะต้องแก้ไข
--ชื่อบท น่าจะแบ่งออกเป็น server part, client part
--ยังไม่ได้เขียนคำนำบท
-
-- บทที่ 4 Repository
-- 
-    Repository คืออะไร 
-    สร้าง Repository
-    เพิ่ม User เข้าใช้งาน Repository 
-    ลบ User ออกจาก Repository
-    เปลี่ยนแปลงสิทธิ์ในการเข้าใช้งาน Repository
-    ลบ Repository
-    เปลี่ยนชื่อ Repository
-
-- บทที่ 5 การใช้งาน Tortoise SVN
-- 
-    Tortoise SVN
-    ติดตั้ง Tortoise SVN
-    Checkout Code
-    Commit ไฟล์
-    อัปเดต working copy
-    ยกเลิกการเปลี่ยนแปลง
-    วิธีจำลองการทำงาน คนๆเดียว ให้เหมือนหลายคน เพื่อศึกษา SVN
-    แบบฝึกหัด
-
-- บทที่ 6 การใช้งาน TortoiseSVN เพิ่มเติม
-- 
-    นำไฟล์เข้า Repository
-    export ไฟล์เพื่อนำไปใช้งาน
-    export เฉพาะไฟล์ที่แก้ไข
-    สั่งข้ามไฟล์บางไฟล์หรือบางโฟลเดอร์
-    ยกเลิก Ignore file
-    ดูความเปลี่ยนแปลงของโค้ด
-    ตรวจดูใครแก้ไขโค้ดบรรทัดไหนไป
-    การขอ lock ไฟล์ 
-    การปลด lock ไฟล์ 
-    Create patch  ***
-    Apply patch  ***
-    Resolve Conflict  ***
-
-*** ยังไม่ได้เขียน Create patch
-*** ยังไม่ได้เขียน Apply patch
-*** ยังไม่ได้เขียน Resolve Conflict
-
-- บทที่ 7 การแตก Branch และการ Merge โค้ด
--
-    Branching
-    การแตก Branch ตั้งแต่สร้าง Repository
-    การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (Repository เปล่า)
-        แตก Branch trunk 
-        แตก Branch branches
-        แตก Branch branch
-        แตก Branch tags ***
-        แตก Branch tag
-    การแตก Branch ภายหลังสร้าง Repository ไปแล้ว (commit โค้ดไปแล้วด้วย)
-        แตก Branch trunk
-        แตก Branch branches
-        แตก Branch branch
-        แตก Branch tags
-        แตก Branch tag
-    รายละเอียดหน้าต่างแตก Branch
-    การตรวจสอบปัจจุบันเราอยู่ Branch ไหน
-        วิธีที่ 1
-        วิธีที่ 2
-    การสลับ Branch
-    การรวม Branch
-    การแก้ไขชื่อ Branch
-    การลบ Branch
-        วิธีที่ 1
-        วิธีที่ 2
-
- 
+chapter1facesheet.txt
+chapter1.txt
+chapter2facesheet.txt
+chapter2.txt
+chapter3facesheet.txt
+chapter3.txt
+chapter4facesheet.txt
+chapter4.txt
+chapter5facesheet.txt
+chapter5.txt
+chapter6facesheet.txt
+chapter6.txt
