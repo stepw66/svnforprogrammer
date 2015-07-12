@@ -390,5 +390,3 @@ Patch คือคำตอบ
 5. ลองเปิดไฟล์ที่ถูก Patch ดูจะเห็นโค้ดที่เปลี่ยนแปลงไป
 
     ![](images/chapter5/apply_patch_05.png)
-
-## Resolve Conflict ##
