@@ -93,6 +93,7 @@
 1. เปิด VisualSVN Server Manager ขึ้นมา
 
 2. คลิกขวาที่ User จากนั้นเลือก Create User... หรือจะเลือกไปที่ New \> User ก็ได้ ให้ผลลัพธ์เหมือนกัน 
+
     ![](images/chapter3/user_create_01.png) 
 
 3. หน้าต่าง Create New User จะเปิดขึ้นมา ให้ป้อนรายละเอียดของ User ใหม่เข้าไป เสร็จแล้วคลิกปุ่ม OK 
