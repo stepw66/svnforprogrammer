@@ -15,7 +15,7 @@ Backup ของ SVN จะเหมือน Save Point มากกว่า (
 
 ผมอยากให้ดูภาพนี้ก่อน ภาพนี้บอกความเป็น SVN ได้ดีที่สุดแล้ว
 
-![ภาพจาก http://commons.wikimedia.org/wiki/File:SVN_Server_Client_Structure.png](images\chapter1\svn_server_client_structure.png)
+![ภาพจาก http://commons.wikimedia.org/wiki/File:SVN_Server_Client_Structure.png](images/chapter1/svn_server_client_structure.png)
 
 โมเดลการทำงานของ SVN นั้นเป็นโมเดลที่เขาเรียกว่า Client Server คือจะต้องมีองค์ประกอบ 2 ส่วน ทำงานประสานกัน 
 
